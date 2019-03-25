@@ -1,0 +1,10 @@
+# Basic Git Ignore for now.
+
+# Server Node Modules
+node_modules/
+
+# Client Node Modules.
+client/node_modules/
+
+# VS Code settings.
+.vscode/
