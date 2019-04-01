@@ -14,35 +14,7 @@ class App extends Component {
     
     return (
       <div>
-        <MBar clickType="clickable1"
-          dropDownType="clickable2"
-          options={[
-            {
-              label : "Option1",
-              dropDowns : [
-                {
-                  label : "Drop Opt 1"
-                },
-                {
-                  label : "Drop Opt 2"
-                }
-              ]
-            },
-            {
-              label : "Option2",
-              dropDowns : [
-                {
-                  label : "DROP"
-                }
-              ]
-            },
-            {
-              label : "Option3"
-            }
-          ]}
-        />
-
-        
+        Hello, World!
         {/* Please define all actual displays in the displays folder */}     
       </div>
     );
