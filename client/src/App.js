@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import MButton from './displays/components/MButton';
-import MBar from './displays/components/MBar';
+import MBarDefault from './displays/components/MBarDefault';
 
 import './componentStyles/styles.css';
 import './componentStyles/inputStyles.css';
@@ -14,7 +13,7 @@ class App extends Component {
     
     return (
       <div>
-        Hello, World!
+        <MBarDefault />
         {/* Please define all actual displays in the displays folder */}     
       </div>
     );
