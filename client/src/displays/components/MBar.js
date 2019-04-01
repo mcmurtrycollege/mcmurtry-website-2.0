@@ -8,13 +8,22 @@ import MButton from './MButton';
  */
 function MBar(props) {
   // Load buttons.
-  let buttons = Object.entries(props.buttons).map(option => (
-    <MButton flexible 
-      key={option[0]}
-      text={option[0]} 
-      dropdowns={option[1]} 
-    />
-  ));
+  let buttons;
+  
+  if (props.options) {
+    // Create each option.
+    buttons = props.options.map((option, index) => (
+      <MButton flexible 
+        key={index}
+        label={option.label} 
+        onClick={option.onClick}
+        clickType={props.clickType}
+        widthDivisor={props.options.length}
+        dropDowns={option.dropDowns}
+        dropDownType={props.dropDownType} 
+      />
+    ));
+  } 
 
   return (
     <div className="flexDisplay">

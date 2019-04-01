@@ -6,36 +6,46 @@ import React from 'react';
  * Still in progress...
  */
 function MButton(props) {
-  let dropdownMenu = null;
+  let dropDownMenu;
 
-  if (props.dropdowns) {
-    let options = Object.entries(props.dropdowns).map(option => (
-      <div className="tertiary whiteText"
-        key={option[0]}
-      >
-        {option[0]}
-      </div>
+  // Create Dropdown menu.
+  if (props.dropDowns) {
+    // Create each option.
+    let options = props.dropDowns.map((option, index) => (
+      <MButton key={index}
+        label={option.label}
+        onClick={option.onClick}
+        clickType={props.dropDownType}
+      />
     ));
+    
+    // Calculate width of drop down.
+    let perWidth = ((1.0 / props.widthDivisor) * 100) + "%";
 
-    dropdownMenu = (
-      <div className="dropdown">
+    // Create drop down.
+    dropDownMenu = (
+      <div className="dropdown" style={{width : perWidth}}>
         {options}
       </div>
     );
   }
 
-  let conatinerClassName = "primary buttonContainer";
+  // Create container class name.
+  let conatinerClassName = "buttonContainer";
 
   if (props.flexible) {
-    conatinerClassName += " flexible";
+    conatinerClassName = "flexible " + conatinerClassName;
   }
+
+  // Create button class name.
+  let paneClassName = props.clickType + " slow buttonPane";
 
   return (
     <span className={conatinerClassName}>
-      <div className="clickable whiteText buttonPane">
-        {props.text}
+      <div className={paneClassName} onClick={props.onClick}>
+        {props.label}
       </div>
-      {dropdownMenu}
+      {dropDownMenu}
     </span>
   );
 }

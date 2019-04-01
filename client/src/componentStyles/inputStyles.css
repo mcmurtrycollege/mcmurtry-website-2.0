@@ -1,16 +1,9 @@
 
 /* For the styling of input components */
 
-.clickable {
-  background-color: rgba(255, 255, 255, .1);
-}
-
-.clickable:hover {
-  background-color: rgba(255, 255, 255, .2);
-}
-
 .buttonPane {
-  padding: .6rem;
+  text-align: center;
+  padding: .4rem .6rem;
 }
 
 .dropdown {
@@ -20,9 +13,35 @@
 
 .buttonContainer:hover .dropdown {
   display: block;
-  width: 100%;
 }
 
 .dropdown:hover {
   display: block;
+}
+
+/* Different Button Looks */
+
+.clickable1 {
+  color: rgba(0, 0, 0, .4);
+  border-bottom: 2px solid rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.clickable1:hover {
+  color: rgb(129, 0, 189);
+  border-bottom: 2px solid rgb(129, 0, 189);
+  background-color: white;
+}
+
+.clickable1:active {
+  background-color: rgba(129, 0, 189, .1);
+}
+
+.clickable2 {
+  background-color: beige;
+}
+
+.clickable2:hover {
+  color: black;
+  background-color: antiquewhite;
 }

@@ -45,6 +45,6 @@
   display: flex;
 }
 
-div {
-  color: black;
+.slow {
+  transition-duration: .2s;
 }
