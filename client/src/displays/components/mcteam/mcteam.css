@@ -1,0 +1,29 @@
+.mcteam-key {
+    font-size: 1.25em;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.active-key {
+    background-color: #422a4C;
+    color: #DDCEE5;
+    text-align: center;
+}
+
+.inactive-key {
+    background-color: #9570A5;
+    color: #422a4C;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.inactive-slide:hover {
+    background-color: #422a4C;
+    color: #DDCEE5;
+}
+
+.position-content {
+    background-color: #DDCEE5;
+    margin-top: 30px;
+    padding: 5px 30px 5px 30px;
+}
