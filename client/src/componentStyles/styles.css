@@ -4,6 +4,47 @@
  * Please keep all style sheets in the componentStyles folder.
  */
 
+ /* Default */
+
+ body {
+  margin: 0px;
+
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+  transition-duration: .2s;
+ }
+
+ /* Color Theme */
+
+.primary {
+  background-color: rgb(129, 0, 189);
+}
+
+.secondary {
+  background-color: white;
+}
+
+.tertiary {
+  background-color: black;
+}
+
+/* Text */
+
+.whiteText {
+  color: white;
+}
+
+/* Other */
+
+.flexible {
+  flex: 1;
+}
+
+.flexDisplay {
+  display: flex;
+}
+
 div {
   color: black;
 }

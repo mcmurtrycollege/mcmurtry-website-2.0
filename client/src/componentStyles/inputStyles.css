@@ -1,2 +1,28 @@
 
-/* For the styling of input components 
+/* For the styling of input components */
+
+.clickable {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.clickable:hover {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.buttonPane {
+  padding: .6rem;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+}
+
+.buttonContainer:hover .dropdown {
+  display: block;
+  width: 100%;
+}
+
+.dropdown:hover {
+  display: block;
+}
