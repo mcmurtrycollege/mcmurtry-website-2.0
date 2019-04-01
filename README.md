@@ -2,15 +2,20 @@
 Redesigned McMurtry Website from scratch.
 
 ## Important Notes
-If you are working on the client, and need a node module not normally included make sure to use `npm install <module_name> --save` inside the `client` directory. Otherwise, the module will be added to the node modules of the backend server (not what you want).
+If you are working on the client, and need a node module not normally included make 
+sure to use `npm install <module_name> --save` inside the `client` directory. Otherwise,               
+the module will be added to the node modules of the backend server (not what you want).
 
-Also, please follow the folder structure set up. This can get very disorganized very fast if we are not careful. 
+Also, please follow the folder structure set up. This can get very disorganized very fast 
+if we are not careful. 
 
 All __CSS__ files should go in `client/componentStyles`.
 
 All large __React Components__ (like full page templates) should be placed in `client/displays`. 
 
 All smaller __React Components__ should be placed in `client/displays/components`.
+
+Finally, for __style__, please use 2 space tabs and no more than 80 characters per line.
 
 Follow the quick start below to get going!
 
