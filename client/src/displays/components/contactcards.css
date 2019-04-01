@@ -1,0 +1,50 @@
+.position-card {
+    margin: 10px;
+}
+
+.position-card-content {
+    height: 200px;
+    border: solid #422a4C;
+    border-width: 5px 2px 2px 5px;
+    background-color: #9570A5;
+    color: #422a4C;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.position-card-content:hover {
+    background-color: #DDCEE5;
+}
+
+.positionless-card-content {
+    height: 130px;
+    border: solid #422a4C;
+    border-width: 5px 2px 2px 5px;
+    background-color: #9570A5;
+    color: #422a4C;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.positionless-card-content:hover {
+    background-color: #DDCEE5;
+}
+
+.position {
+    font-weight: normal;
+}
+
+.contact {
+    text-decoration: none;
+    color: #422a4C;
+}
+
+.contact-email {
+    font-weight: normal;
+    font-size: 0.9em;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-email:hover {
+    transform: scale(1.05);
+}

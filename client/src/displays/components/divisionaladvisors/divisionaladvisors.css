@@ -1,0 +1,36 @@
+.advisor-card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out, box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+    color: #DDCEE5;
+    border: 3px solid #DDCEE5;
+}
+
+.advisor-card:hover {
+    transform: scale(1.04);
+    box-shadow: 5px 5px 10px #422a4C;
+}
+
+.advisor-name {
+    color: #DDCEE5;
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.advisor-school {
+    color: #DDCEE5;
+    font-size: 1.75em;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.advisor-bio {
+    text-align: left;
+    padding: 20px;
+    color: #DDCEE5;
+}

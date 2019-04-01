@@ -1,0 +1,70 @@
+{
+    "justices":[
+        {
+            "position": "Chief Justice",
+            "name": "Augi Liebster",
+            "year": "2021",
+            "email": "mcmurtrycj@gmail.com"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "George Huang",
+            "year": "",
+            "email": "@rice.edu"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Ben Lasota",
+            "year": "",
+            "email": "@rice.edu"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Liana Hamm",
+            "year": "",
+            "email": "@rice.edu"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Aaron Vaughan",
+            "year": "",
+            "email": "@rice.edu"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Nneoma Ome",
+            "year": "",
+            "email": "@rice.edu"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Adulfo Amador",
+            "year": "",
+            "email": "@rice.edu"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Nathan McCoslin",
+            "year": "",
+            "email": "@rice.edu"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Krishna Chandra",
+            "year": "",
+            "email": "@rice.edu"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Serene Lee",
+            "year": "",
+            "email": "@rice.edu"
+        },
+        {
+            "position": "Associate Justice",
+            "name": "Claire Wang",
+            "year": "",
+            "email": "@rice.edu"
+        }
+    ]
+}
