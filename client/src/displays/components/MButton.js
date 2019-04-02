@@ -1,9 +1,7 @@
 import React from 'react';
 
 /**
- * MenuButton Functional Component.
- * 
- * Still in progress...
+ * MButton (MenuButton) Functional Component.
  */
 function MButton(props) {
   let dropDownMenu;
@@ -33,12 +31,24 @@ function MButton(props) {
   // Create container class name.
   let conatinerClassName = "buttonContainer";
 
+  // If specified, make button flexible.
   if (props.flexible) {
     conatinerClassName = "flexible " + conatinerClassName;
   }
 
   // Create button class name.
   let paneClassName = props.clickType + " slow buttonPane";
+
+  /*
+   * Here specifiy if the given button is a parent or not.
+   *
+   * An MButton should be marked as a parent if it holds a nonempty dropdown 
+   * menu. When the mouse is hovering over an MButton's dropdown menu, the 
+   * MButton should  be styled as if it itself is being hovered over as well.
+   */
+  if (dropDownMenu) {
+    paneClassName = "parent " + paneClassName;
+  }
 
   return (
     <span className={conatinerClassName}>
