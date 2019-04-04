@@ -1,0 +1,11 @@
+@media screen and (min-width: 900px){
+    .about-page {
+        padding-top: 5%;
+    }
+}
+
+.about-text {
+    padding: 20px;
+    background-color: #DDCEE5;
+    color: #422A4C;
+}

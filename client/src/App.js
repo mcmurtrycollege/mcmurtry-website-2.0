@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './displays/components/navbar/navbar';
+import About from './displays/components/about/about';
 import McTeam from './displays/components/mcteam/mcteam';
 import McMinistry from './displays/components/mcministry/mcministry';
 import Court from './displays/components/court/court';
@@ -12,6 +13,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
+        <About />
         {/* <McTeam /> */}
         {/* <McMinistry /> */}
         {/* <Court /> */}
