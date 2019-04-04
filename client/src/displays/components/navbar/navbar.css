@@ -15,6 +15,10 @@
 }
 
 @media screen and (max-width: 900px){
+    .navbar-crest {
+        display: none;
+    }
+
     .wide-navbar {
         display: none;
     }
@@ -74,15 +78,15 @@
 }
 
 .narrow-navbar-toggle {
-    margin-top: 3%;
+    margin-top: 6%;
     position: absolute;
     z-index: 999;
-    margin-left: 3%;
+    margin-left: 6%;
     margin-right: 90%;
 }
 
 .narrow-navbar-menu {
-    margin-top: 12%;
+    margin-top: 3%;
     background-color: #9570A5;
     z-index: 999;
     margin-left: auto;

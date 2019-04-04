@@ -17,8 +17,8 @@ class App extends Component {
         <Navbar />
         {/* <About /> */}
         {/* <Events /> */}
-        <ArtEvents />
-        {/* <McTeam /> */}
+        {/* <ArtEvents /> */}
+        <McTeam />
         {/* <McMinistry /> */}
         {/* <Court /> */}
         {/* <Committees /> */}

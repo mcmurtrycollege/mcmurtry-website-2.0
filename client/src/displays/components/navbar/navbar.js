@@ -1,5 +1,6 @@
 import React from 'react';
 import './navbar.css';
+import McmLogo from '../mcmLogo';
 import { navbar_items } from './navbar.json';
 
 class DropDownWide extends React.Component {
@@ -120,6 +121,9 @@ class NavBar extends React.Component {
 
         return (
             <div>
+                <div className='navbar-crest'>
+                    <McmLogo />
+                </div>
                 <div className='wide-navbar'>
                     {
                         this.props.dropDownItems.map(({ header, dropDownChildren }) => (
@@ -131,6 +135,7 @@ class NavBar extends React.Component {
                     <div className='narrow-navbar-toggle' >
                         <img style={burgerStyle} onClick={this.handleClick} src='https://icon.now.sh/burger/DDCEE5/24' />
                     </div>
+                    <McmLogo />
                     <div className='narrow-navbar-menu' style={narrowNavBarStyle}>
                         {
                             this.props.dropDownItems.map(({ header, dropDownChildren }) => (
