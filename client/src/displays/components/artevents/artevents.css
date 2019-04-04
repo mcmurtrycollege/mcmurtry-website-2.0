@@ -1,0 +1,12 @@
+@media screen and (min-width: 900px){
+    .artevents-page {
+        padding-top: 8%;
+    }
+}
+
+.artevent-calendar {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
