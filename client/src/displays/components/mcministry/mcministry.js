@@ -8,7 +8,7 @@ import { executive_council, peoples_council, mccabinent } from './mcministry.jso
 export default class McMinistry extends React.Component {
     render() {
         return (
-            <div>
+            <div className='mcministry-page'>
                 <Title width={290} title="McMinistry" />
                 <Box width={320} ml='auto' mr='auto'>
                     <h1 className='division-title'>Executive Council</h1>

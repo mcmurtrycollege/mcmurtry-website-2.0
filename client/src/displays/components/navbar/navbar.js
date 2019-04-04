@@ -31,14 +31,14 @@ class DropDownWide extends React.Component {
             maxHeight: `${h}px`,
         }
         return (
-            <div key={this.props.key} className='wide-dropdown-item' onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+            <div className='dropdown-item' onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
                 <div className='dropdown-header'>
                     {this.props.header}
                 </div>
                 <div className='dropdown-subheaders' style={dropDownHeightStyle}>
                     {
                         this.props.dropDownChildren.map(({ subheader }) => (
-                            <div className='dropdown-subheader'>
+                            <div className='dropdown-subheader' key={`${subheader}`}>
                                 {subheader}
                             </div>
                         ))
@@ -74,14 +74,14 @@ class DropDownNarrow extends React.Component {
             maxHeight: `${h}px`,
         }
         return (
-            <div className='narrow-dropdown-item'>
+            <div className='dropdown-item'>
                 <div className='dropdown-header' onClick={this.handleClick}>
                     {this.props.header}
                 </div>
                 <div className='dropdown-subheaders' style={dropDownHeightStyle}>
                     {
                         this.props.dropDownChildren.map(({ subheader }) => (
-                            <div className='dropdown-subheader'>
+                            <div className='dropdown-subheader' key={`${subheader}`}>
                                 {subheader}
                             </div>
                         ))
@@ -134,7 +134,7 @@ class NavBar extends React.Component {
                     <div className='narrow-navbar-menu' style={narrowNavBarStyle}>
                         {
                             this.props.dropDownItems.map(({ header, dropDownChildren }) => (
-                                <DropDownNarrow header={header} dropDownChildren={dropDownChildren} />
+                                <DropDownNarrow header={header} dropDownChildren={dropDownChildren} key={`${header}`}/>
                             ))
                         }
                     </div>

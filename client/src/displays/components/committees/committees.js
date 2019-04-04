@@ -21,7 +21,7 @@ export default class Committees extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="committee-page">
                 <Title width={330} title="Committees" />
                 <div>
                     <Flex justifyContent='center' flex='wrap' flexDirection='row'>
@@ -39,7 +39,7 @@ export default class Committees extends React.Component {
                 </div>
                 {
                     divisions[this.state.current].map(({ name, description, members }) => (
-                        <div>
+                        <div key={`${name}`}>
                             <Box width={320} ml='auto' mr='auto'>
                                 <h1 className='division-title'>{name}</h1>
                             </Box>

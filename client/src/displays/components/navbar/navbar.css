@@ -1,50 +1,12 @@
-.wide-dropdown-item {
-    display: block;
-    background-color: #9570A5;
-    color: #DDCEE5;
-}
+@media screen and (min-width: 900px){
+    .divisional-advisors-page {
+        padding-top: 5%;
+    }
 
-.narrow-dropdown-item {
-    display: block;
-    background-color: #9570A5;
-    color: #DDCEE5;
-}
-
-.dropdown-subheaders {
-    overflow: hidden;
-    transition: max-height 0.7s ease-in-out;
-}
-
-.dropdown-header {
-    text-align: center;
-    height: 20px;
-    padding: 5px;
-    display: block;
-    color: #DDCEE5;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.dropdown-header:hover {
-    background-color: #422a4C;
-    cursor: pointer;
-}
-
-.dropdown-subheader {
-    text-align: center;
-    padding: 5px;
-    display: block;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.dropdown-subheader:hover {
-    background-color: #422a4C;
-    cursor: pointer;
-}
-
-@media screen and (min-width: 500px){
     .wide-navbar {
         display: flex;
         flex-direction: row;
+        position: fixed;
     }
 
     .narrow-navbar {
@@ -52,7 +14,7 @@
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 900px){
     .wide-navbar {
         display: none;
     }
@@ -65,12 +27,50 @@
 }
 
 .wide-navbar {
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
     position: absolute;
     z-index: 999;
-    width: 900%;
+    width: 90%;
+}
+
+.dropdown-item {
+    display: block;
+    color: #422a4C;
+    text-align: center;
+}
+
+.dropdown-header {
+    height: 35px;
+    padding: 5px;
+    background-color: #9570A5;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-header:hover {
+    background-color: #422a4C;
+    color: #DDCEE5;
+    cursor: pointer;
+}
+
+.dropdown-subheader {
+    text-align: center;
+    padding: 5px;
+    display: block;
+    color: #DDCEE5;
+    background-color: #9570A5;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-subheader:hover {
+    background-color: #422a4C;
+    cursor: pointer;
+}
+
+.dropdown-subheaders {
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out;
 }
 
 .narrow-navbar-toggle {
@@ -83,10 +83,10 @@
 
 .narrow-navbar-menu {
     margin-top: 12%;
-    position: absolute;
+    background-color: #9570A5;
     z-index: 999;
-    margin-left: 4%;
-    margin-right: 40%;
+    margin-left: auto;
+    margin-right: auto;
     transition: max-height 0.8s ease-in-out;
     overflow: hidden;
 }

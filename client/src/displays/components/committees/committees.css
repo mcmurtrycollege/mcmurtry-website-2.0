@@ -1,3 +1,9 @@
+@media screen and (min-width: 900px){
+    .committee-page {
+        padding-top: 5%;
+    }
+}
+
 .key {
     padding-left: 1%;
     padding-right: 1%;

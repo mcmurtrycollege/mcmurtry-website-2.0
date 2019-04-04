@@ -51,7 +51,7 @@ class BoxSlider extends React.Component {
 export default class DivisionalAdvisors extends React.Component {
     render() {
         return (
-            <div>
+            <div className='divisional-advisors-page'>
                 <Title width={[320, 500]} title="Divisional Advisors" />
                 <div>
                     {
