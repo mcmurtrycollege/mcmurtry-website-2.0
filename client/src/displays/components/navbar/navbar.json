@@ -1,0 +1,130 @@
+{
+    "navbar_items":[
+        {
+          "header": "About",
+          "dropDownChildren": [
+          ]
+        },
+        {
+          "header": "Events",
+          "dropDownChildren": [
+            {
+              "subheader": "Events"
+            },
+            {
+              "subheader": "Art Calender"
+            },
+            {
+                "subheader": "Photos"
+            }
+          ]
+        },
+        {
+            "header": "Residential Leadership",
+            "dropDownChildren": [
+              {
+                "subheader": "McTeam"
+              },
+              {
+                "subheader": "McMinistry"
+              },
+              {
+                  "subheader": "Court"
+              },
+              {
+                  "subheader": "Committees"
+              },
+              {
+                  "subheader": "Associates"
+              }
+            ]
+          },
+          {
+            "header": "Academics",
+            "dropDownChildren": [
+              {
+                "subheader": "Divisional Advisors"
+              },
+              {
+                "subheader": "Pear Academic Advisors"
+              },
+              {
+                  "subheader": "Academic Fellows"
+              }
+            ]
+          },
+          {
+            "header": "Wellbeing",
+            "dropDownChildren": [
+              {
+                "subheader": "Rice Health Advisors"
+              },
+              {
+                "subheader": "Strive Liasons"
+              }
+            ]
+          },
+          {
+            "header": "Guiding Documents",
+            "dropDownChildren": [
+              {
+                "subheader": "Constitution"
+              },
+              {
+                "subheader": "General Bylaws"
+              },
+              {
+                  "subheader": "Housing Bylaws"
+              },
+              {
+                  "subheader": "Parking Bylaws"
+              }
+            ]
+          },
+          {
+            "header": "O-Week",
+            "dropDownChildren": [
+              {
+                "subheader": "Pixar Studio Week"
+              },
+              {
+                "subheader": "O-Week Advisors"
+              }
+            ]
+          },
+          {
+            "header": "Resources",
+            "dropDownChildren": [
+              {
+                "subheader": "Room Reservations"
+              },
+              {
+                "subheader": "Work Orders"
+              },
+              {
+                  "subheader": "Technology"
+              },
+              {
+                  "subheader": "Initiative Requests"
+              },
+              {
+                  "subheader": "The MIS"
+              },
+              {
+                  "subheader": "Facilities"
+              },
+              {
+                  "subheader": "Tax-Exempt Form"
+              },
+              {
+                  "subheader": "Other Assets"
+              }
+            ]
+          },
+          {
+            "header": "Contact",
+            "dropDownChildren": [
+            ]
+          }
+      ]
+}

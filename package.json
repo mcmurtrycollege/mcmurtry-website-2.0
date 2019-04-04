@@ -18,6 +18,8 @@
   "dependencies": {
     "concurrently": "^3.5.1",
     "express": "^4.16.2",
-    "rebass": "^3.1.0"
+    "react": "^16.8.6",
+    "rebass": "^3.1.0",
+    "styled-components": "^4.2.0"
   }
 }
