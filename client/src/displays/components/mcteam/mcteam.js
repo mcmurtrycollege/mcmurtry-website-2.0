@@ -49,7 +49,7 @@ export default class McTeam extends React.Component {
                         }
                     </Flex>
                 </div>
-                <Box width={[1, 0.9, 0.8, 0.7]} ml='auto' mr='auto' className='position-content'>
+                <Box width={[1, 0.9, 0.8, 0.7]} ml='auto' mr='auto' mb={50} className='position-content'>
                     <h2>{items[this.state.current].names}</h2>
                     <p>{items[this.state.current].body}</p>
                     {
