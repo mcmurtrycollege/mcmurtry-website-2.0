@@ -39,7 +39,7 @@ export default class McTeam extends React.Component {
                     <Flex justifyContent='center' flex='wrap' flexDirection='row'>
                         {
                             positions.map(position => (
-                                <Box key={position} width={[0.2, 0.18, 0.16, 0.14]}>
+                                <Box key={position}>
                                     <div onMouseEnter={() => this.handleClick(positions.indexOf(position))}
                                         className={this.state.current === positions.indexOf(position) ? "active-key" : "inactive-key"}>
                                         <p className='mcteam-key'>{position}</p>

@@ -6,31 +6,52 @@
 
 @media screen and (min-width: 650px){
     .mcteam-key {
-        font-size: 1.25em;
-        padding-right: 10px;
-        padding-left: 10px;
+        font-size: 1em;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .active-key {
+        background-color: #422a4C;
+        color: #DDCEE5;
+        text-align: center;
+        width: 120px;
+        height: 75px;
+    }
+    
+    .inactive-key {
+        background-color: #9570A5;
+        color: #422a4C;
+        text-align: center;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        width: 120px;
+        height: 75px;
     }
 }
 
 @media screen and (max-width: 650px){
     .mcteam-key {
-        font-size: 0.6em;
+        font-size: 0.5em;
         padding-right: 10px;
         padding-left: 10px;
     }
-}
 
-.active-key {
-    background-color: #422a4C;
-    color: #DDCEE5;
-    text-align: center;
-}
-
-.inactive-key {
-    background-color: #9570A5;
-    color: #422a4C;
-    text-align: center;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    .active-key {
+        background-color: #422a4C;
+        color: #DDCEE5;
+        text-align: center;
+        width: 62px;
+        height: 40px;
+    }
+    
+    .inactive-key {
+        background-color: #9570A5;
+        color: #422a4C;
+        text-align: center;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        width: 62px;
+        height: 40px;
+    }
 }
 
 .inactive-slide:hover {

@@ -8,7 +8,7 @@ const About = () => (
     <div className='about-page'>
         <Title width={300} title="About McMurtry" />
         <Box className='about-text' width={[1, 0.9, 0.8, 0.7]} ml='auto' mr='auto'>
-            <p className='about-text'>
+            <p>
                 {about}
             </p>
         </Box>

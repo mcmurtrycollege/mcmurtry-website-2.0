@@ -31,7 +31,6 @@
     .narrow-navbar {
         display: flex;
         flex-direction: column;
-
     }
 }
 
@@ -50,10 +49,18 @@
     text-align: center;
 }
 
-.dropdown-header {
+.dropdown-header-inactive {
     height: 35px;
     padding: 5px;
     background-color: #9570A5;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-header-active {
+    height: 35px;
+    padding: 5px;
+    background-color: #422a4C;
+    color: #DDCEE5;
     transition: background-color 0.3s ease-in-out;
 }
 

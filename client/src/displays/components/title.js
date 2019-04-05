@@ -5,7 +5,7 @@ const title_style = {
         fontSize: '3em',
         textAlign: 'center',
         fontWeight: 'normal',
-        border: '3px solid #422a4C',
+        border: '2px solid #422a4C',
         padding: '8px',
         color: '#422a4C',
         backgroundColor: '#DDCEE5'

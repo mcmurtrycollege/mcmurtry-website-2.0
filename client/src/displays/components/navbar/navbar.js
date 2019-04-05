@@ -33,7 +33,7 @@ class DropDownWide extends React.Component {
         }
         return (
             <div className='dropdown-item' onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
-                <div className='dropdown-header'>
+                <div className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
                     {this.props.header}
                 </div>
                 <div className='dropdown-subheaders' style={dropDownHeightStyle}>
