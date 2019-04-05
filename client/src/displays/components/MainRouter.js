@@ -29,11 +29,6 @@ class MainRouter extends Component {
               </Switch>
             </div>
           </Router>
-          {/* <McTeam /> */}
-          {/* <McMinistry /> */}
-          {/* <Court /> */}
-          {/* <Committees /> */}
-          {/* <DivisionalAdvisors /> */}
         </div>
       );
     }
