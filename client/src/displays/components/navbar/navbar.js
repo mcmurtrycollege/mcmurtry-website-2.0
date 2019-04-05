@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 import McmLogo from '../mcmLogo';
 import { navbar_items } from './navbar.json';
@@ -33,15 +34,29 @@ class DropDownWide extends React.Component {
         }
         return (
             <div className='dropdown-item' onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
-                <div className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
-                    {this.props.header}
+                <div>
+                    {
+                        this.props.headerTo !== undefined ? (
+                            <Link to={this.props.headerTo} style={{ textDecoration: 'none' }}>
+                                <div className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
+                                    {this.props.header}
+                                </div>
+                            </Link>
+                        ) : (
+                                <div className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
+                                    {this.props.header}
+                                </div>
+                            )
+                    }
                 </div>
                 <div className='dropdown-subheaders' style={dropDownHeightStyle}>
                     {
-                        this.props.dropDownChildren.map(({ subheader }) => (
-                            <div className='dropdown-subheader' key={`${subheader}`}>
-                                {subheader}
-                            </div>
+                        this.props.dropDownChildren.map(({ subheader, to }) => (
+                            <Link to={to} key={`${subheader}`} style={{ textDecoration: 'none' }}>
+                                <div className='dropdown-subheader'>
+                                    {subheader}
+                                </div>
+                            </Link>
                         ))
                     }
                 </div>
@@ -60,8 +75,8 @@ class DropDownNarrow extends React.Component {
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleClick () {
-        this.setState({expanded: !this.state.expanded})
+    handleClick() {
+        this.setState({ expanded: !this.state.expanded })
     };
 
     render() {
@@ -76,15 +91,29 @@ class DropDownNarrow extends React.Component {
         }
         return (
             <div className='dropdown-item'>
-                <div className='dropdown-header' onClick={this.handleClick}>
-                    {this.props.header}
+                <div>
+                    {
+                        this.props.headerTo !== undefined ? (
+                            <Link to={this.props.headerTo} style={{ textDecoration: 'none' }}>
+                                <div className='dropdown-header' onClick={this.handleClick}>
+                                    {this.props.header}
+                                </div>
+                            </Link>
+                        ) : (
+                                <div className='dropdown-header' onClick={this.handleClick}>
+                                    {this.props.header}
+                                </div>
+                            )
+                    }
                 </div>
                 <div className='dropdown-subheaders' style={dropDownHeightStyle}>
                     {
-                        this.props.dropDownChildren.map(({ subheader }) => (
-                            <div className='dropdown-subheader' key={`${subheader}`}>
-                                {subheader}
-                            </div>
+                        this.props.dropDownChildren.map(({ subheader, to }) => (
+                            <Link to={to} key={`${subheader}`} style={{ textDecoration: 'none' }}>
+                                <div className='dropdown-subheader'>
+                                    {subheader}
+                                </div>
+                            </Link>
                         ))
                     }
                 </div>
@@ -111,7 +140,7 @@ class NavBar extends React.Component {
 
     render() {
         let narrowNavBarStyle = {};
-        let burgerStyle = {transition: 'transform 0.2s ease-in-out'};
+        let burgerStyle = { transition: 'transform 0.2s ease-in-out' };
         if (this.state.closed) {
             narrowNavBarStyle.maxHeight = '0px'
         } else {
@@ -126,8 +155,8 @@ class NavBar extends React.Component {
                 </div>
                 <div className='wide-navbar'>
                     {
-                        this.props.dropDownItems.map(({ header, dropDownChildren }) => (
-                            <DropDownWide header={header} dropDownChildren={dropDownChildren} key={`${header}`}/>
+                        this.props.dropDownItems.map(({ header, headerTo, dropDownChildren }) => (
+                            <DropDownWide header={header} headerTo={headerTo} dropDownChildren={dropDownChildren} key={`${header}`} />
                         ))
                     }
                 </div>
@@ -138,8 +167,8 @@ class NavBar extends React.Component {
                     <McmLogo />
                     <div className='narrow-navbar-menu' style={narrowNavBarStyle}>
                         {
-                            this.props.dropDownItems.map(({ header, dropDownChildren }) => (
-                                <DropDownNarrow header={header} dropDownChildren={dropDownChildren} key={`${header}`}/>
+                            this.props.dropDownItems.map(({ header, headerTo, dropDownChildren }) => (
+                                <DropDownNarrow header={header} headerTo={headerTo} dropDownChildren={dropDownChildren} key={`${header}`} />
                             ))
                         }
                     </div>

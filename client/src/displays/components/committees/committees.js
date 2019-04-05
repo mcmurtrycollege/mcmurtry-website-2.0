@@ -22,7 +22,7 @@ export default class Committees extends React.Component {
     render() {
         return (
             <div className="committee-page">
-                <Title width={330} title="Committees" />
+                <Title width={320} title="Committees" />
                 <div>
                     <Flex justifyContent='center' flex='wrap' flexDirection='row'>
                         {

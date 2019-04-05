@@ -2,6 +2,7 @@
     "navbar_items":[
         {
           "header": "About",
+          "headerTo": "/about/",
           "dropDownChildren": [
           ]
         },
@@ -9,10 +10,12 @@
           "header": "Events",
           "dropDownChildren": [
             {
-              "subheader": "Events"
+              "subheader": "Events",
+              "to":"/events/"
             },
             {
-              "subheader": "Art Calender"
+              "subheader": "Art Calender",
+              "to":"/artevents/"
             }
           ]
         },
@@ -20,16 +23,20 @@
             "header": "Residential Leadership",
             "dropDownChildren": [
               {
-                "subheader": "McTeam"
+                "subheader": "McTeam",
+                "to":"/mcteam/"
               },
               {
-                "subheader": "McMinistry"
+                "subheader": "McMinistry",
+                "to":"/mcministry/"
               },
               {
-                  "subheader": "Court"
+                  "subheader": "Court",
+                  "to":"/court/"
               },
               {
-                  "subheader": "Committees"
+                  "subheader": "Committees",
+                  "to":"/committees/"
               }
             ]
           },
@@ -37,13 +44,16 @@
             "header": "Academics",
             "dropDownChildren": [
               {
-                "subheader": "Divisional Advisors"
+                "subheader": "Divisional Advisors",
+                "to":"/da/"
               },
               {
-                "subheader": "Pear Academic Advisors"
+                "subheader": "Pear Academic Advisors",
+                "to":""
               },
               {
-                  "subheader": "Academic Fellows"
+                  "subheader": "Academic Fellows",
+                  "to":""
               }
             ]
           },
@@ -51,10 +61,12 @@
             "header": "Wellbeing",
             "dropDownChildren": [
               {
-                "subheader": "Rice Health Advisors"
+                "subheader": "Rice Health Advisors",
+                "to":""
               },
               {
-                "subheader": "Strive Liasons"
+                "subheader": "Strive Liasons",
+                "to":""
               }
             ]
           },
@@ -62,16 +74,20 @@
             "header": "Guiding Documents",
             "dropDownChildren": [
               {
-                "subheader": "Constitution"
+                "subheader": "Constitution",
+                "to":""
               },
               {
-                "subheader": "General Bylaws"
+                "subheader": "General Bylaws",
+                "to":""
               },
               {
-                  "subheader": "Housing Bylaws"
+                  "subheader": "Housing Bylaws",
+                  "to":""
               },
               {
-                  "subheader": "Parking Bylaws"
+                  "subheader": "Parking Bylaws",
+                  "to":""
               }
             ]
           },
@@ -79,10 +95,12 @@
             "header": "O-Week",
             "dropDownChildren": [
               {
-                "subheader": "Pixar Studio Week"
+                "subheader": "Pixar Studio Week",
+                "to":""
               },
               {
-                "subheader": "O-Week Advisors"
+                "subheader": "O-Week Advisors",
+                "to":""
               }
             ]
           },
@@ -90,22 +108,28 @@
             "header": "Resources",
             "dropDownChildren": [
               {
-                "subheader": "Room Reservations"
+                "subheader": "Room Reservations",
+                "to":""
               },
               {
-                "subheader": "Work Orders"
+                "subheader": "Work Orders",
+                "to":""
               },
               {
-                  "subheader": "Technology"
+                  "subheader": "Technology",
+                  "to":""
               },
               {
-                  "subheader": "Initiative Requests"
+                  "subheader": "Initiative Requests",
+                  "to":""
               },
               {
-                  "subheader": "The MIS"
+                  "subheader": "The MIS",
+                  "to":""
               },
               {
-                  "subheader": "Tax-Exempt Form"
+                  "subheader": "Tax-Exempt Form",
+                  "to":""
               }
             ]
           },

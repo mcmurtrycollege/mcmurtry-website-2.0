@@ -24,6 +24,25 @@
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
+@media screen and (max-width: 670px){
+    .active-key {
+        background-color: #422a4C;
+        color: #DDCEE5;
+        padding: 5px;
+        font-size: 0.6em;
+        text-align: center;
+    }
+    
+    .inactive-key {
+        background-color: #9570A5;
+        color: #422a4C;
+        padding: 5px;
+        font-size: 0.6em;
+        text-align: center;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+}
+
 .inactive-slide:hover {
     background-color: #422a4C;
     color: #DDCEE5;

@@ -20,7 +20,7 @@ class BoxSlider extends React.Component {
     render() {
         let h;
         if (this.state.closed) {
-            h = 200;
+            h = 150;
         } else {
             h = this.props.openHeight;
         }
@@ -30,7 +30,7 @@ class BoxSlider extends React.Component {
         }
         return (
             <div>
-                <Box width={[0.95, 0.9, 0.8, 0.7]} ml='auto' mr='auto'>
+                <Box width={[0.95, 0.8, 0.7, 0.6]} ml='auto' mr='auto'>
                     <div className="advisor-card" style={style} onClick={this.handleClick}>
                         <h2 className='advisor-name'>
                             {this.props.name}
