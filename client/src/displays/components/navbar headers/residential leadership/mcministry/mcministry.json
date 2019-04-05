@@ -7,6 +7,12 @@
             "email": "mcmurtrypresident@gmail.com"
         },
         {
+            "position": "Chief Justice",
+            "name": "Augi Liebster",
+            "year": "2021",
+            "email": "mcmurtrycj@gmail.com"
+        },
+        {
             "position": "Prime Minister",
             "name": "Sam Fowler",
             "year": "2021",
@@ -47,12 +53,6 @@
             "name": "Dylan Nguyen",
             "year": "2022",
             "email": "mcmurtrytreasurer@gmail.com"
-        },
-        {
-            "position": "Chief Justice",
-            "name": "Augi Liebster",
-            "year": "2021",
-            "email": "mcmurtrycj@gmail.com"
         }
     ],
     "peoples_council":[
