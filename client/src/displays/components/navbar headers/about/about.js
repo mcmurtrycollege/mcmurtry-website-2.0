@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from '../title';
+import Title from '../../title';
 import { Box } from 'rebass';
 import './about.css';
 import { about, burtDeeDee } from './about.json';

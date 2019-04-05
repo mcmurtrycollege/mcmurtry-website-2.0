@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './navbar/navbar';
-import About from './about/about';
-import Events from './events/events';
-import ArtEvents from './artevents/artevents';
-import McTeam from './mcteam/mcteam';
-import McMinistry from './mcministry/mcministry';
-import Court from './court/court';
-import Committees from './committees/committees';
-import DivisionalAdvisors from './divisionaladvisors/divisionaladvisors';
+import About from './navbar headers/about/about';
+import Events from './navbar headers/events/events/events';
+import ArtEvents from './navbar headers/events/artevents/artevents';
+import McTeam from './navbar headers/residential leadership/mcteam/mcteam';
+import McMinistry from './navbar headers/residential leadership/mcministry/mcministry';
+import Court from './navbar headers/residential leadership/court/court';
+import Committees from './navbar headers/residential leadership/committees/committees';
+import DivisionalAdvisors from './navbar headers/academics/divisionaladvisors/divisionaladvisors';
 
 class MainRouter extends Component {
     render() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Flex } from 'rebass';
-import Cards from '../contactcards';
-import Title from '../title';
+import Cards from '../../../contactcards';
+import Title from '../../../title';
 import { internal, external, social } from './committees.json';
 import './committees.css';
 const divisions = [internal, external, social];

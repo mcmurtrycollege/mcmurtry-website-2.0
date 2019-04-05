@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box } from 'rebass';
 import './mcministry.css';
-import Title from '../title';
-import Cards from '../contactcards';
+import Title from '../../../title';
+import Cards from '../../../contactcards';
 import { executive_council, peoples_council, mccabinent } from './mcministry.json';
 
 export default class McMinistry extends React.Component {

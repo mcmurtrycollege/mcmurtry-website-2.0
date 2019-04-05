@@ -1,6 +1,6 @@
 import React from 'react';
-import Title from '../title';
-import './events.css'
+import Title from '../../../title';
+import './events.css';
 
 const eventStyle = {
     border: "0"

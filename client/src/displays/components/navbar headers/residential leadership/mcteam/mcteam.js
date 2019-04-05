@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Flex } from 'rebass';
 import './mcteam.css';
-import Title from '../title';
+import Title from '../../../title';
 import { magister_info, head_resident_fellows, second_floor_RA, third_floor_RA, college_coordinator } from './mcteam.json';
 const items = [magister_info,
     head_resident_fellows,

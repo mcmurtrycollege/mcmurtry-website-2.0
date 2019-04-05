@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box, Flex } from 'rebass';
 import { advisors } from './divisionaladvisors.json';
-import Title from '../title';
-import './divisionaladvisors.css'
+import Title from '../../../title';
+import './divisionaladvisors.css';
 
 class BoxSlider extends React.Component {
     constructor(props) {

@@ -1,6 +1,6 @@
 import React from 'react';
-import Title from '../title';
-import Cards from '../contactcards';
+import Title from '../../../title';
+import Cards from '../../../contactcards';
 import './court.css';
 import { justices } from './court.json';
 
