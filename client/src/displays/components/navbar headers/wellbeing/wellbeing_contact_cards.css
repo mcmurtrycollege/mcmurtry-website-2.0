@@ -1,0 +1,35 @@
+.wellbeing-card {
+    margin: 10px;
+}
+
+.wellbeing-card-content {
+    height: 100px;
+    border: solid #422a4C;
+    border-width: 5px 2px 2px 5px;
+    background-color: #9570A5;
+    color: #422a4C;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.wellbeing-card-content:hover {
+    background-color: #DDCEE5;
+}
+
+.wellbeing-card-name {
+    font-size: 1.25em;
+}
+
+.wellbeing-card-phone {
+    font-size: 1em;
+    transition: transform 0.3s ease-in-out;
+}
+
+.wellbeing-card-phone:hover {
+    transform: scale(1.1) translate(15px, 0px);
+}
+
+.wellbeing-card-room {
+    font-weight: normal;
+    font-size: 1em;
+}

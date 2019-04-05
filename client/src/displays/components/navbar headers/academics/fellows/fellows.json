@@ -1,0 +1,11 @@
+{
+    "fellows_description": "Fellows are upperclassmen who were selected based on proven academic achievement and demonstrated willingness to help fellow students. As part of their charge, Fellows provide free academic assistance on a regular basis through advertised review sessions, “office hours” in the college commons, and individual tutoring by request.",
+    "fellows": [
+        {
+            "name": "Jim Bob",
+            "email": "jimbob@rice.edu",
+            "major":"Studying",
+            "subjects": "knowledge"
+        }
+    ]
+}

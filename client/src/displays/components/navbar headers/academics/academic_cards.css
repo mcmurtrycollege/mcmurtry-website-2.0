@@ -1,0 +1,50 @@
+.academic-card {
+    margin: 10px;
+}
+
+.academic-card-content {
+    height: 150px;
+    border: solid #422a4C;
+    border-width: 5px 2px 2px 5px;
+    background-color: #9570A5;
+    color: #422a4C;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.academic-card-content:hover {
+    background-color: #DDCEE5;
+}
+
+.academic-position {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.academic-card-name {
+    font-size: 1.25em;
+}
+
+.academic-contact {
+    text-decoration: none;
+    color: #422a4C;
+}
+
+.academic-contact-email {
+    font-size: 1em;
+    transition: transform 0.3s ease-in-out;
+}
+
+.academic-card-major {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.academic-contact-email:hover {
+    transform: scale(1.1) translate(15px, 0px);
+}
+
+.academic-subjects {
+    color: #422a4C;
+    font-size: 1em;
+}

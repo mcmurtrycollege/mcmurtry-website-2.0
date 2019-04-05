@@ -50,15 +50,15 @@ const navbar_items = [
     dropDownChildren: [
       {
         subheader: "Divisional Advisors",
-        to: "/da/"
+        to: "/divisionaladvisors/"
       },
       {
         subheader: "Pear Academic Advisors",
-        to: ""
+        to: "/peeracademicadvisors/"
       },
       {
         subheader: "Academic Fellows",
-        to: ""
+        to: "/academicfellows/"
       }
     ]
   },
@@ -67,11 +67,11 @@ const navbar_items = [
     dropDownChildren: [
       {
         subheader: "Rice Health Advisors",
-        to: ""
+        to: "/RHAs/"
       },
       {
         subheader: "Strive Liasons",
-        to: ""
+        to: "/striveliaisons/"
       }
     ]
   },

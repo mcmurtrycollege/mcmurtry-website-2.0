@@ -6,7 +6,7 @@ const Card = props => (
     props.position !== undefined ? (
         <Box className='position-card' width={260}>
             <div className="position-card-content">
-                <h2 className="position">{props.position}:</h2>
+                <h2 className="position">{props.position}</h2>
                 <h2 className="name">{props.name}</h2>
                 <a href={`mailto:${props.email}`} className='contact'>
                     <h3 className="contact-email"><img src="https://icon.now.sh/arrow/422a4C/10" />{' '}{props.email}</h3>
