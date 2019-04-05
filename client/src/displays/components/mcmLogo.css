@@ -8,10 +8,12 @@
 @media screen and (min-width: 900px){
     .mcm-crest {
         background-color: #DDCEE5;
-        border: 2px solid #422a4C;
+        border: solid #422a4C;
+        border-width: 0px 0px 2px 0px;
         padding-left: 4%;
         padding-right: 4%;
-        margin-top: 3%;
+        padding-top: 1%;
+        margin-top: 0%;
     }
 }
 

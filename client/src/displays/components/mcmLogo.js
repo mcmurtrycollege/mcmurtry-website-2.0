@@ -6,11 +6,11 @@ import mcmCrest from '../static/mcmCrest.svg';
 
 const McmLogo = () => (
     <div>
-        <Box width={[0.7, 0.3]} ml='auto' mr='auto' pt={0.1}>
-            <div className='mcm-crest'>
+        <div className='mcm-crest'>
+            <Box width={[0.7, 0.3]} ml='auto' mr='auto' pt={0.1}>
                 <Image src={mcmCrest} />
-            </div>
-        </Box>
+            </Box>
+        </div>
     </div>
 )
 

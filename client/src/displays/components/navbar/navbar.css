@@ -15,12 +15,12 @@
 
     .dropdown-header-inactive {
         border: solid #422a4C;
-        border-width: 2px 0px 2px 0px;
+        border-width: 0px 0px 2px 0px;
     }
 
     .dropdown-header-active {
         border: solid #422a4C;
-        border-width: 2px 0px 2px 0px;
+        border-width: 0px 0px 2px 0px;
     }
 }
 
@@ -40,7 +40,7 @@
 }
 
 .wide-navbar {
-    margin-top: 2%;
+    margin-top: 0%;
     margin-left: 5%;
     margin-right: 5%;
     position: absolute;
