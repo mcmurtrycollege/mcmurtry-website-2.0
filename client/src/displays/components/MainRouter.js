@@ -11,6 +11,7 @@ import Committees from './navbar headers/residential leadership/committees/commi
 import DivisionalAdvisors from './navbar headers/academics/divisionaladvisors/divisionaladvisors';
 import WorkOrder from './navbar headers/resources/workorder/workorder';
 import InitiativeRequest from './navbar headers/resources/initiativerequest/initiativerequest';
+import EquipmentRequest from './navbar headers/resources/equipmentrequest/equipmentrequest';
 
 class MainRouter extends Component {
     render() {
@@ -30,6 +31,7 @@ class MainRouter extends Component {
                 <Route exact path="/da" component={DivisionalAdvisors}/>
                 <Route exact path="/workorder" component={WorkOrder}/>
                 <Route exact path="/initiativerequest" component={InitiativeRequest}/>
+                <Route exact path="/equipment" component={EquipmentRequest}/>
               </Switch>
             </div>
           </Router>

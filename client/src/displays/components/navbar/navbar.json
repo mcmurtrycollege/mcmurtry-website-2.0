@@ -116,8 +116,8 @@
                 "to":"/workorder/"
               },
               {
-                  "subheader": "Technology",
-                  "to":""
+                  "subheader": "Equipment",
+                  "to":"/equipment/"
               },
               {
                   "subheader": "Initiative Requests",
