@@ -9,6 +9,8 @@ import McMinistry from './navbar headers/residential leadership/mcministry/mcmin
 import Court from './navbar headers/residential leadership/court/court';
 import Committees from './navbar headers/residential leadership/committees/committees';
 import DivisionalAdvisors from './navbar headers/academics/divisionaladvisors/divisionaladvisors';
+import WorkOrder from './navbar headers/resources/workorder/workorder';
+import InitiativeRequest from './navbar headers/resources/initiativerequest/initiativerequest';
 
 class MainRouter extends Component {
     render() {
@@ -26,6 +28,8 @@ class MainRouter extends Component {
                 <Route exact path="/court" component={Court}/>
                 <Route exact path="/committees" component={Committees}/>
                 <Route exact path="/da" component={DivisionalAdvisors}/>
+                <Route exact path="/workorder" component={WorkOrder}/>
+                <Route exact path="/initiativerequest" component={InitiativeRequest}/>
               </Switch>
             </div>
           </Router>

@@ -113,7 +113,7 @@
               },
               {
                 "subheader": "Work Orders",
-                "to":""
+                "to":"/workorder/"
               },
               {
                   "subheader": "Technology",
@@ -121,7 +121,7 @@
               },
               {
                   "subheader": "Initiative Requests",
-                  "to":""
+                  "to":"/initiativerequest/"
               },
               {
                   "subheader": "The MIS",
