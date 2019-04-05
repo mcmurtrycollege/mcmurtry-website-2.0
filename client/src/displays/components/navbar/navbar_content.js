@@ -118,15 +118,15 @@ const navbar_items = [
       },
       {
         subheader: "Work Orders",
-        href: 'https://www.emailmeform.com/builder/form/c9Iyb57aGe2ETnAk3Oce7'
+        to: '/workorder/'
       },
       {
-        subheader: "Technology",
-        href: 'https://docs.google.com/forms/d/e/1FAIpQLSekrzRmxwFU8DxqwLAxV94b9OFyesTLxkmwjituOuCSIjUjtQ/viewform?embedded=true&formkey=dFRXRWdxa20yMlF2dEN2U1lSNWxSemc6MQ'
+        subheader: "Equipment",
+        to: '/equipment/'
       },
       {
         subheader: "Initiative Requests",
-        href: 'https://docs.google.com/forms/d/e/1FAIpQLSfWw9BThDp7wDgxtYYvwRomD-myrMXZYP6ve-TzincU81ViBg/viewform'
+        to: '/initiativerequest/'
       },
       {
         subheader: "The MIS",
