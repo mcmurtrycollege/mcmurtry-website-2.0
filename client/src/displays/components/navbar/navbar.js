@@ -154,11 +154,13 @@ class NavBar extends React.Component {
                     <McmLogo />
                 </div>
                 <div className='wide-navbar'>
+                    <div className='filler-box'/>
                     {
                         this.props.dropDownItems.map(({ header, headerTo, dropDownChildren }) => (
                             <DropDownWide header={header} headerTo={headerTo} dropDownChildren={dropDownChildren} key={`${header}`} />
                         ))
                     }
+                    <div className='filler-box'/>
                 </div>
                 <div className='narrow-navbar'>
                     <div className='narrow-navbar-toggle' >

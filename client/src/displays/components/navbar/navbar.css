@@ -41,11 +41,11 @@
 
 .wide-navbar {
     margin-top: 0%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
     position: absolute;
     z-index: 999;
-    width: 90%;
+    width: 100%;
 }
 
 .dropdown-item {
@@ -117,4 +117,12 @@
     margin-right: auto;
     transition: max-height 0.8s ease-in-out;
     overflow: hidden;
+}
+
+.filler-box {
+    width: 5%;
+    padding: 5px;
+    height: 35px;
+    border: solid #422a4C;
+    border-width: 0px 0px 2px 0px;
 }
