@@ -3,7 +3,7 @@
 }
 
 .position-card-content {
-    height: 200px;
+    height: 150px;
     border: solid #422a4C;
     border-width: 5px 2px 2px 5px;
     background-color: #9570A5;
@@ -32,6 +32,11 @@
 
 .position {
     font-weight: normal;
+    font-size: 0.9em;
+}
+
+.name {
+    font-size: 1.25em;
 }
 
 .contact {
@@ -39,12 +44,18 @@
     color: #422a4C;
 }
 
-.contact-email {
+.year {
     font-weight: normal;
-    font-size: 0.9em;
+    font-size: 0.8em;
+}
+
+.contact-email {
+    /* font-weight: normal; */
+    font-size: 0.8em;
     transition: transform 0.3s ease-in-out;
 }
 
 .contact-email:hover {
-    transform: scale(1.05);
+    transform: scale(1.1) translate(15px, 0px);
+    /* transform: translate(5px, 0px); */
 }
