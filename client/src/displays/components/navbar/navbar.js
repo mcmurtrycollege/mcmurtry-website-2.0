@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 import McmLogo from '../mcmLogo';
-import { navbar_items } from './navbar.json';
+import navbar_items from './navbar_content';
 
 class DropDownWide extends React.Component {
     constructor(props) {
@@ -51,12 +51,21 @@ class DropDownWide extends React.Component {
                 </div>
                 <div className='dropdown-subheaders' style={dropDownHeightStyle}>
                     {
-                        this.props.dropDownChildren.map(({ subheader, to }) => (
-                            <Link to={to} key={`${subheader}`} style={{ textDecoration: 'none' }}>
-                                <div className='dropdown-subheader'>
-                                    {subheader}
-                                </div>
-                            </Link>
+                        this.props.dropDownChildren.map(({ subheader, to, href }) => (
+                            href === undefined ? (
+                                <Link to={to} key={`${subheader}`} style={{ textDecoration: 'none' }}>
+                                    <div className='dropdown-subheader'>
+                                        {subheader}
+                                    </div>
+                                </Link>
+                            ) : (
+                                <a href={href} style={{ textDecoration: 'none' }} target="_blank">
+                                    <div className='dropdown-subheader'>
+                                        {subheader}
+                                    </div>
+                                </a>
+                            )
+
                         ))
                     }
                 </div>
@@ -108,12 +117,18 @@ class DropDownNarrow extends React.Component {
                 </div>
                 <div className='dropdown-subheaders' style={dropDownHeightStyle}>
                     {
-                        this.props.dropDownChildren.map(({ subheader, to }) => (
-                            <Link to={to} key={`${subheader}`} style={{ textDecoration: 'none' }}>
-                                <div className='dropdown-subheader'>
-                                    {subheader}
-                                </div>
-                            </Link>
+                        this.props.dropDownChildren.map(({ subheader, to, href }) => (
+                            href === undefined ? (
+                                <Link to={to} key={`${subheader}`} style={{ textDecoration: 'none' }}>
+
+                                </Link>
+                            ) : (
+                                    <a href={href} style={{ textDecoration: 'none' }} target="_blank">
+                                        <div className='dropdown-subheader'>
+                                            {subheader}
+                                        </div>
+                                    </a>
+                                )
                         ))
                     }
                 </div>
@@ -154,13 +169,13 @@ class NavBar extends React.Component {
                     <McmLogo />
                 </div>
                 <div className='wide-navbar'>
-                    <div className='filler-box'/>
+                    <div className='filler-box' />
                     {
                         this.props.dropDownItems.map(({ header, headerTo, dropDownChildren }) => (
                             <DropDownWide header={header} headerTo={headerTo} dropDownChildren={dropDownChildren} key={`${header}`} />
                         ))
                     }
-                    <div className='filler-box'/>
+                    <div className='filler-box' />
                 </div>
                 <div className='narrow-navbar'>
                     <div className='narrow-navbar-toggle' >
