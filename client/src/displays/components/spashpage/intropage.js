@@ -13,7 +13,6 @@ const Intro = () => (
         <Box width={0.6} ml='auto' mr='auto'>
             <Image src={Yurt} />
         </Box>
-        <Title width={350} title="Welcome to McMurtry!" />
     </div>
 )
 
