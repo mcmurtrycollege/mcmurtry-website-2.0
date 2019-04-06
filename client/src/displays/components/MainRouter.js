@@ -16,6 +16,7 @@ import StriveLiaisons from './navbar headers/wellbeing/strive_liaisons';
 import WorkOrder from './navbar headers/resources/workorder/workorder';
 import InitiativeRequest from './navbar headers/resources/initiativerequest/initiativerequest';
 import EquipmentRequest from './navbar headers/resources/equipmentrequest/equipmentrequest';
+import Mis from './navbar headers/resources/mis/mis';
 import Contact from './navbar headers/contact/contact';
 
 class MainRouter extends Component {
@@ -41,6 +42,7 @@ class MainRouter extends Component {
               <Route exact path="/workorder" component={WorkOrder} />
               <Route exact path="/initiativerequest" component={InitiativeRequest} />
               <Route exact path="/equipment" component={EquipmentRequest} />
+              <Route exact path="/mis" component={Mis} />
               <Route exact path="/contact" component={Contact} />
             </Switch>
           </div>

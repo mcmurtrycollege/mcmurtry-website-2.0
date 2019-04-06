@@ -130,7 +130,7 @@ const navbar_items = [
       },
       {
         subheader: "The MIS",
-        to: ""
+        to: "/mis/"
       },
       {
         subheader: "Tax-Exempt Form",
