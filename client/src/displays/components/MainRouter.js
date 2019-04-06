@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './navbar/navbar';
+import Intro from './spashpage/intropage';
 import About from './navbar headers/about/about';
 import Events from './navbar headers/events/events/events';
 import ArtEvents from './navbar headers/events/artevents/artevents';
@@ -27,6 +28,7 @@ class MainRouter extends Component {
           <div>
             <Navbar />
             <Switch>
+              <Route exact path="/" component={Intro} />
               <Route exact path="/about" component={About} />
               <Route exact path="/events" component={Events} />
               <Route exact path="/artevents" component={ArtEvents} />
