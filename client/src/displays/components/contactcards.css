@@ -4,8 +4,9 @@
 
 .position-card-content {
     height: 150px;
-    border: solid #422a4C;
+    border: solid;
     border-width: 5px 2px 2px 5px;
+    border-color: #422a4C #5C3F68 #5C3F68 #422a4C;
     background-color: #9570A5;
     color: #422a4C;
     padding: 15px;
@@ -18,8 +19,9 @@
 
 .positionless-card-content {
     height: 130px;
-    border: solid #422a4C;
+    border: solid;
     border-width: 5px 2px 2px 5px;
+    border-color: #422a4C #5C3F68 #5C3F68 #422a4C;
     background-color: #9570A5;
     color: #422a4C;
     padding: 15px;

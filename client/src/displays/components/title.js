@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from 'rebass';
 
-const title_style = {
+const title_style1 = {
         fontSize: '3em',
         textAlign: 'center',
         fontWeight: 'normal',
@@ -11,9 +11,19 @@ const title_style = {
         backgroundColor: '#DDCEE5'
 }
 
+const title_style2 = {
+    fontSize: '2em',
+    textAlign: 'center',
+    fontWeight: 'normal',
+    border: '2px solid #422a4C',
+    padding: '8px',
+    color: '#422a4C',
+    backgroundColor: '#DDCEE5'
+}
+
 const Title = props => (
     <Box width={props.width} ml='auto' mr='auto'>
-        <h1 style={title_style}>{props.title}</h1>
+        <h1 style={props.smallText ? (title_style2) : (title_style1)}>{props.title}</h1>
     </Box>
 )
 

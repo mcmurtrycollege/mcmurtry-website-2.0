@@ -3,14 +3,19 @@
         "description": "STRIVE is a student-driven coalition that empowers all members of the Rice community to play an active role in eliminating gender-based inequality and sexual violence. We do this by engaging in positive, open dialogue, pooling on and off-campus resources, and providing the tools and skills necessary to create cultural change.",
         "members":[
             {
-                "name":"",
+                "name":"Mitra Mirpour",
+                "phone":"(832) 248-4578",
+                "room": ""
+            },
+            {
+                "name":"Emily Duffus",
                 "phone":"",
                 "room": ""
             },
             {
-                "name":"",
-                "phone":"",
-                "room": ""
+                "name":"Melodi Doganay",
+                "phone":"(631) 605-6494",
+                "room": "477"
             }
         ]
     },
@@ -18,12 +23,27 @@
         "description":"RHAs are students who have been trained on a variety of wellbeing topics. These students work at their college to provide health education opportunities, health supplies and peer guidance. RHAs also act as a liaison between the Student Wellbeing Office and the residential colleges, staying up to date on campus-wide wellbeing programming.",
         "members":[
             {
-                "name":"",
+                "name":"Alex Curylo",
                 "phone":"",
                 "room": ""
             },
             {
-                "name":"",
+                "name":"Emily Duffus",
+                "phone":"",
+                "room": ""
+            },
+            {
+                "name":"Akshaya Venkatesh",
+                "phone":"",
+                "room": ""
+            },
+            {
+                "name":"Melodi Doganay",
+                "phone":"(631) 605-6494",
+                "room": "477"
+            },
+            {
+                "name":"Caleb Robinson",
                 "phone":"",
                 "room": ""
             }

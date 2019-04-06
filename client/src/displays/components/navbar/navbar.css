@@ -22,6 +22,10 @@
         border: solid #422a4C;
         border-width: 0px 0px 2px 0px;
     }
+
+    .dropdown-subheader {
+        background-color: #A884B7;
+    }
 }
 
 @media screen and (max-width: 900px){
@@ -74,6 +78,7 @@
     color: #422a4C;
     display: block;
     padding: 5px;
+    
 }
 
 .dropdown-header:hover {
@@ -87,7 +92,6 @@
     padding: 5px;
     display: block;
     color: #DDCEE5;
-    background-color: #A884B7;
     transition: background-color 0.3s ease-in-out;
 }
 

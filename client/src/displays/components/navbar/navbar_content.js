@@ -53,7 +53,7 @@ const navbar_items = [
         to: "/divisionaladvisors/"
       },
       {
-        subheader: "Pear Academic Advisors",
+        subheader: "Peer Academic Advisors",
         to: "/peeracademicadvisors/"
       },
       {
@@ -140,6 +140,7 @@ const navbar_items = [
   },
   {
     header: "Contact",
+    headerTo: "/contact/",
     dropDownChildren: [
     ]
   }

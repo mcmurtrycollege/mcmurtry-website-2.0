@@ -8,7 +8,7 @@ export default class Court extends React.Component {
     render(){
         return (
             <div className='court-page'>
-                <Title width={420} title="Court & Justices" />
+                <Title width={350} title="Court & Justices" />
                 <Cards content={justices} />
             </div>
         )

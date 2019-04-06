@@ -7,7 +7,7 @@ import { strive_liaisons } from './wellbeing.json';
 
 const StriveLiaisons = () => (
     <div className='wellbeing-page'>
-        <Title width={250} title="Strive Liaisons" />
+        <Title width={370} title="Strive Liaisons" />
         <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='wellbeing-description'>
             {strive_liaisons.description}
         </Box>

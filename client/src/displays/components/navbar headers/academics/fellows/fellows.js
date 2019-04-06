@@ -7,7 +7,7 @@ import './fellows.css';
 
 const AcademicFellows = () => (
     <div className='fellows-page'>
-        <Title width={300} title="Academic Fellows" />
+        <Title width={[320, 500]} title="Academic Fellows" />
         <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='fellows-description'>
             {fellows_description}
         </Box>

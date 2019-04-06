@@ -59,12 +59,12 @@ class DropDownWide extends React.Component {
                                     </div>
                                 </Link>
                             ) : (
-                                <a href={href} style={{ textDecoration: 'none' }} target="_blank">
-                                    <div className='dropdown-subheader'>
-                                        {subheader}
-                                    </div>
-                                </a>
-                            )
+                                    <a href={href} key={`${subheader}`} style={{ textDecoration: 'none' }} target="_blank">
+                                        <div className='dropdown-subheader'>
+                                            {subheader}
+                                        </div>
+                                    </a>
+                                )
 
                         ))
                     }
@@ -120,10 +120,12 @@ class DropDownNarrow extends React.Component {
                         this.props.dropDownChildren.map(({ subheader, to, href }) => (
                             href === undefined ? (
                                 <Link to={to} key={`${subheader}`} style={{ textDecoration: 'none' }}>
-
+                                    <div className='dropdown-subheader'>
+                                        {subheader}
+                                    </div>
                                 </Link>
                             ) : (
-                                    <a href={href} style={{ textDecoration: 'none' }} target="_blank">
+                                    <a href={href} key={`${subheader}`} style={{ textDecoration: 'none' }} target="_blank">
                                         <div className='dropdown-subheader'>
                                             {subheader}
                                         </div>
