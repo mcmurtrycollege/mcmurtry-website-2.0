@@ -31,7 +31,7 @@ const Contact = () => (
         <Flex flexWrap='wrap' flexDirection='row' justifyContent='center'>
             {
                 contacts.map(({ position, name, email }) => (
-                    <Box width={[0.9, 0.3]} className='contact-card-shell'>
+                    <Box width={[0.9, 0.3]} className='contact-card-shell' key={`${name}`}>
                         <div className="contact-card">
                             {
                                 position !== undefined ? (
