@@ -19,6 +19,11 @@ import InitiativeRequest from './navbar headers/resources/initiativerequest/init
 import EquipmentRequest from './navbar headers/resources/equipmentrequest/equipmentrequest';
 import Mis from './navbar headers/resources/mis/mis';
 import Contact from './navbar headers/contact/contact';
+import Constitution from './navbar headers/guiding documents/constitution/constitution';
+import GeneralBylaws from './navbar headers/guiding documents/general-bylaws/general-bylaws';
+import HousingBylaws from './navbar headers/guiding documents/housing-bylaws/housing-bylaws';
+import ParkingBylaws from './navbar headers/guiding documents/parking-bylaws/parking-bylaws';
+import TaxExempt from './navbar headers/resources/tax-exempt-form/tax-exempt-form';
 
 class MainRouter extends Component {
   render() {
@@ -46,6 +51,11 @@ class MainRouter extends Component {
               <Route exact path="/equipment" component={EquipmentRequest} />
               <Route exact path="/mis" component={Mis} />
               <Route exact path="/contact" component={Contact} />
+              <Route exact path="/constitution" component={Constitution} />
+              <Route exact path="/generalbylaws" component={GeneralBylaws} />
+              <Route exact path="/housingbylaws" component={HousingBylaws} />
+              <Route exact path="/parkingbylaws" component={ParkingBylaws} />
+              <Route exact path="/taxexempt" component={TaxExempt} />
             </Switch>
           </div>
         </Router>

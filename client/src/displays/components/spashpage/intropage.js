@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Image } from 'rebass';
-import Title from '../title';
+// import Title from '../title';
 import './intropage.css';
 
 import Yurt from '../../static/YurtTrees.svg';

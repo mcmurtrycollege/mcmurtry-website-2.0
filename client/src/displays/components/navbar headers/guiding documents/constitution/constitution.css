@@ -1,0 +1,12 @@
+@media screen and (min-width: 900px){
+    .constitution-page {
+        padding-top: 5%;
+    }
+}
+
+.constitution-pdf {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
