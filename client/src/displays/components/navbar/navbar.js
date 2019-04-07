@@ -33,7 +33,7 @@ class DropDownWide extends React.Component {
             maxHeight: `${h}px`,
         }
         return (
-            <div className='dropdown-item' onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+            <div className='dropdown-item' onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} style={{width: '10%'}}>
                 <div>
                     {
                         this.props.headerTo !== undefined ? (

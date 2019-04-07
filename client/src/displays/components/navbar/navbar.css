@@ -39,6 +39,8 @@
     }
 }
 
+
+
 .wide-navbar {
     margin-top: 0%;
     margin-left: 0%;
@@ -49,7 +51,6 @@
 }
 
 .dropdown-item {
-    width: 10%;
     display: block;
     color: #422a4C;
     text-align: center;
@@ -126,4 +127,22 @@
     height: 35px;
     border: solid #422a4C;
     border-width: 0px 0px 2px 0px;
+}
+
+@media screen and (min-width: 2000px){
+    .dropdown-item {
+        font-size: 1.8em;
+    }
+    
+    .dropdown-header-inactive {
+        height: 80px;
+    }
+
+    .dropdown-header-active {
+        height: 80px;
+    }
+
+    .filler-box {
+        height: 80px;
+    }
 }
