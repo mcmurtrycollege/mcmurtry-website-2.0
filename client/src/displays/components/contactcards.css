@@ -59,3 +59,12 @@
 .contact-email:hover {
     transform: scale(1.1) translate(15px, 0px);
 }
+
+.contact-phone {
+    font-size: 0.8em;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-phone:hover {
+    transform: scale(1.1) translate(15px, 0px);
+}
