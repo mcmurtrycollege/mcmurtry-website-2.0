@@ -1,9 +1,3 @@
-import Constitution from '../../static/mcm_constitution.pdf';
-import General_bylaws from '../../static/mcm_bylaws.pdf';
-import Housing_bylaws from '../../static/mcm_housing_bylaws.pdf';
-import Parking_bylaws from '../../static/mcm_parking_bylaws.pdf';
-import Tax_exempt_form from '../../static/tax_exempt_form.pdf';
-
 const navbar_items = [
   {
     header: "About",
@@ -84,15 +78,15 @@ const navbar_items = [
       },
       {
         subheader: "General Bylaws",
-        href: General_bylaws
+        to: '/generalbylaws/'
       },
       {
         subheader: "Housing Bylaws",
-        href: Housing_bylaws
+        to: '/housingbylaws/'
       },
       {
         subheader: "Parking Bylaws",
-        href: Parking_bylaws
+        to: '/parkingbylaws/'
       }
     ]
   },
@@ -134,7 +128,7 @@ const navbar_items = [
       },
       {
         subheader: "Tax-Exempt Form",
-        href: Tax_exempt_form
+        to: '/taxexempt'
       }
     ]
   },

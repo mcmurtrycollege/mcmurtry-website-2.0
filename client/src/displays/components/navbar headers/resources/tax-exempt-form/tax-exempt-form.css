@@ -1,0 +1,12 @@
+@media screen and (min-width: 900px){
+    .tax-exempt-page {
+        padding-top: 5%;
+    }
+}
+
+.tax-exempt-pdf {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}

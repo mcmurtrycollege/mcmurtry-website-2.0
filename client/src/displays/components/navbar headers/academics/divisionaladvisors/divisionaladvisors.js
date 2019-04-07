@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex } from 'rebass';
+import { Box } from 'rebass';
 import { advisors } from './divisionaladvisors.json';
 import Title from '../../../title';
 import './divisionaladvisors.css';
