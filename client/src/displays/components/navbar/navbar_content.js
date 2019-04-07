@@ -80,7 +80,7 @@ const navbar_items = [
     dropDownChildren: [
       {
         subheader: "Constitution",
-        href: Constitution
+        to: '/constitution/'
       },
       {
         subheader: "General Bylaws",

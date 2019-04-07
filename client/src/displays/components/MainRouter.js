@@ -19,6 +19,7 @@ import InitiativeRequest from './navbar headers/resources/initiativerequest/init
 import EquipmentRequest from './navbar headers/resources/equipmentrequest/equipmentrequest';
 import Mis from './navbar headers/resources/mis/mis';
 import Contact from './navbar headers/contact/contact';
+import Constitution from './navbar headers/guiding documents/constitution/constitution';
 
 class MainRouter extends Component {
   render() {
@@ -46,6 +47,7 @@ class MainRouter extends Component {
               <Route exact path="/equipment" component={EquipmentRequest} />
               <Route exact path="/mis" component={Mis} />
               <Route exact path="/contact" component={Contact} />
+              <Route exact path="/constitution" component={Constitution} />
             </Switch>
           </div>
         </Router>
