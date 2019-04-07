@@ -168,9 +168,7 @@ class NavBar extends React.Component {
         return (
             <div>
                 <div className='navbar-crest'>
-                    <Link to="/">
-                        <McmLogo />
-                    </Link>
+                    <McmLogo />
                 </div>
                 <div className='wide-navbar'>
                     <div className='filler-box' />
@@ -185,9 +183,7 @@ class NavBar extends React.Component {
                     <div className='narrow-navbar-toggle' >
                         <img style={burgerStyle} onClick={this.handleClick} src='https://icon.now.sh/burger/DDCEE5/24' />
                     </div>
-                    <Link to="/">
                         <McmLogo />
-                    </Link>
                     <div className='narrow-navbar-menu' style={narrowNavBarStyle}>
                         {
                             this.props.dropDownItems.map(({ header, headerTo, dropDownChildren }) => (
