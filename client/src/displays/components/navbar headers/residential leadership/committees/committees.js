@@ -49,7 +49,7 @@ export default class Committees extends React.Component {
                             <Box width={165} className='members-title' ml='auto' mr='auto'>
                                 <h1 className='members-title-content'>Members</h1>
                             </Box>
-                            <Cards content={members} />
+                            <Cards content={members} height={100} />
                             <Box width={0.7} className='divider' ml='auto' mr='auto'></Box>
                         </div>
                     ))

@@ -104,13 +104,15 @@ class DropDownNarrow extends React.Component {
                     {
                         this.props.headerTo !== undefined ? (
                             <Link to={this.props.headerTo} style={{ textDecoration: 'none' }}>
-                                <div className={this.state.expanded ? ('dropdown-header-narrow-active') : ('dropdown=header-narrow-inactive')} onClick={this.handleClick}>
+                                <div className='dropdown-header' onClick={this.handleClick}>
                                     {this.props.header}
                                 </div>
                             </Link>
                         ) : (
-                                <div className={this.state.expanded ? ('dropdown-header-narrow-active') : ('dropdown=header-narrow-inactive')} onClick={this.handleClick}>
+                                <div className='dropdown-header' onClick={this.handleClick} style={{color: this.state.expanded ? ('#DDCEE5'): ('#422a4C')}}>
                                     {this.props.header}
+                                    {'      '}
+                                    <img className='arrow' style={this.state.expanded ? ({transform: 'rotate(90deg)'}): ({})} src={`https://icon.now.sh/chevron/${this.state.expanded ? ('DDCEE5'): ('422a4C')}/10`} alt=">"/>
                                 </div>
                             )
                     }

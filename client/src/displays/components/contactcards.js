@@ -5,7 +5,7 @@ import './contactcards.css';
 const Card = props => (
 
     < Box className='position-card' width={260} >
-        <div className="position-card-content">
+        <div className="position-card-content" style={{height: props.height}}>
             {
                 props.position !== undefined ? (
                     <h2 className="position">{props.position}</h2>
@@ -40,7 +40,7 @@ const Cards = props => (
         <Flex flexWrap='wrap' flexDirection='row' justifyContent='center'>
             {
                 props.content.map(({ position, name, year, email, phone }) => (
-                    <Card key={name} position={position} name={name} year={year} email={email} phone={phone} />
+                    <Card height={props.height} key={name} position={position} name={name} year={year} email={email} phone={phone} />
                 ))
             }
         </Flex>

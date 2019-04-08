@@ -21,7 +21,6 @@
     }
     
     .inactive-key {
-        background-color: #9570A5;
         color: #422a4C;
         text-align: center;
         transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -46,7 +45,6 @@
     }
     
     .inactive-key {
-        background-color: #9570A5;
         color: #422a4C;
         text-align: center;
         transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;

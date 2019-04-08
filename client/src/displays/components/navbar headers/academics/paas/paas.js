@@ -12,7 +12,7 @@ const PAAs = () => (
             {paas_description}
         </Box>
         <div>
-            <AcademicCards content={paas} />
+            <AcademicCards content={paas} height={200} />
         </div>
     </div>
 )
