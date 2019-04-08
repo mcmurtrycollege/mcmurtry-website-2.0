@@ -3,9 +3,63 @@
     "paas": [
         {
             "position": "Head PAA",
-            "name": "Jim Bob",
-            "email": "jimbob@rice.edu",
-            "major":"Studying"
+            "name": "Jonathan Bloom",
+            "email": "jsb8@rice.edu",
+            "major":"Chemical and Biomolecular Engineering"
+        },
+        {
+            "position": "Head PAA",
+            "name": "Mahesh Krishna",
+            "email": "mk58@rice.edu",
+            "major":"Biochemistry and Cell Biology, Policy Studies; Pre-Med, Pre-Grad"
+        },
+        {
+            "position": "Head PAA",
+            "name": "Rolando Marquez",
+            "email": "rm58@rice.edu",
+            "major":"Bioengineering; Pre-Med"
+        },
+        
+
+
+
+
+        {
+            "position": "O-Week PAA",
+            "name": "Dylan Nguyen",
+            "email": "dhn5@rice.edu",
+            "major":"Social Policy Analysis, Computer Science"
+        },
+        {
+            "position": "O-Week PAA",
+            "name": "Shaquille Que",
+            "email": "stq1@rice.edu",
+            "major":"Computer Science, Mathematics; Pre-Grad"
+        },
+        {
+            "position": "O-Week PAA",
+            "name": "Rishi Vas",
+            "email": "rkv2@rice.edu",
+            "major":"Cognitive Sciences, Financial Computation and Modeling Minor"
+        },
+        {
+            "position": "O-Week PAA",
+            "name": "Akshaya Venkatesh",
+            "email": "av54@rice.edu",
+            "major":"Cognitive Sciences, Busines minor, Biochemistry and Cell Biology Minor; Pre-Med"
+        },
+
+
+
+
+
+        {
+            "position": "Year-Long PAA",
+            "name": "Jonathan Bloom",
+            "email": "jsb8@rice.edu",
+            "major":"Chemical and Biomolecular Engineering"
         }
+        
+        
     ]
 }

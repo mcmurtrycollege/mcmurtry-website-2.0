@@ -7,7 +7,7 @@ import mis_rules from '../../../../static/mis_safety.pdf';
 
 const McmInovationSpace = () => (
     <div className='mis-page'>
-        <Title width={350} title='McMurtry Inovation Space' smallText={true} />
+        <Title width={350} title='McMurtry Innovation Space' smallText={true} />
         <Box className='mis-paragraphs' width={[1, 0.8, 0.7, 0.6]} ml='auto' mr='auto'>
             {
                 content.map(paragraph => (
