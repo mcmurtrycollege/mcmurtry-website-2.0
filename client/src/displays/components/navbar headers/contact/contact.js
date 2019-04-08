@@ -42,7 +42,7 @@ const Contact = () => (
                             }
                             <h2 className='contacts-name'>{name}</h2>
                             <a href={`mailto:${email}`} style={{textDecoration: 'none'}}>
-                                <h2 className='contacts-email'><img src="https://icon.now.sh/arrow/422a4C/14" />{' '}{email}</h2>
+                                <h2 className='contacts-email'><img src="https://icon.now.sh/arrow/422a4C/14" alt="email" />{' '}{email}</h2>
                             </a>
                         </div>
                     </Box>

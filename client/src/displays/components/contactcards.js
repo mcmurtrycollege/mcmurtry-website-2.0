@@ -16,13 +16,13 @@ const Card = props => (
             <h2 className="name">{props.name}</h2>
             {
                 props.phone !== undefined ? (
-                    <h3 className="contact-phone"><img src="https://icon.now.sh/call/422a4C/16" />{' '}{props.phone}</h3>
+                    <h3 className="contact-phone"><img src="https://icon.now.sh/call/422a4C/16" alt="phone" />{' '}{props.phone}</h3>
                 ) : (
                     null
                 )
             }
             <a href={`mailto:${props.email}`} className='contact'>
-                <h3 className="contact-email"><img src="https://icon.now.sh/arrow/422a4C/10" />{' '}{props.email}</h3>
+                <h3 className="contact-email"><img src="https://icon.now.sh/arrow/422a4C/10" alt="email" />{' '}{props.email}</h3>
             </a>
             {
                 props.year !== undefined ? (

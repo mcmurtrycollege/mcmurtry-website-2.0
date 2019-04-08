@@ -59,7 +59,7 @@ class DropDownWide extends React.Component {
                                     </div>
                                 </Link>
                             ) : (
-                                    <a href={href} key={`${subheader}`} style={{ textDecoration: 'none' }} target="_blank">
+                                    <a href={href} key={`${subheader}`} style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
                                         <div className='dropdown-subheader'>
                                             {subheader}
                                         </div>
@@ -125,7 +125,7 @@ class DropDownNarrow extends React.Component {
                                     </div>
                                 </Link>
                             ) : (
-                                    <a href={href} key={`${subheader}`} style={{ textDecoration: 'none' }} target="_blank">
+                                    <a href={href} key={`${subheader}`} style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
                                         <div className='dropdown-subheader'>
                                             {subheader}
                                         </div>
@@ -181,7 +181,7 @@ class NavBar extends React.Component {
                 </div>
                 <div className='narrow-navbar'>
                     <div className='narrow-navbar-toggle' >
-                        <img style={burgerStyle} onClick={this.handleClick} src='https://icon.now.sh/burger/DDCEE5/24' />
+                        <img style={burgerStyle} onClick={this.handleClick} src='https://icon.now.sh/burger/DDCEE5/24' alt='burger' />
                     </div>
                         <McmLogo />
                     <div className='narrow-navbar-menu' style={narrowNavBarStyle}>

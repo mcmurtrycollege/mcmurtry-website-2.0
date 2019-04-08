@@ -14,7 +14,7 @@ const AcademicContactCard = props => (
             }
             <h2 className="academic-card-name">{props.name}</h2>
             <a href={`mailto:${props.email}`} className='academic-contact'>
-                <h3 className="academic-contact-email"><img src="https://icon.now.sh/arrow/422a4C/10" />{' '}{props.email}</h3>
+                <h3 className="academic-contact-email"><img src="https://icon.now.sh/arrow/422a4C/10" alt="email" />{' '}{props.email}</h3>
             </a>
             <h2 className='academic-card-major'>
                 Major: {props.major}

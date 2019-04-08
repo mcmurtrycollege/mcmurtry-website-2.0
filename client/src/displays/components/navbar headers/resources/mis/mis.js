@@ -17,22 +17,22 @@ const McmInovationSpace = () => (
         </Box>
         <Flex flexWrap='wrap' justifyContent='center' flexDirection='row'>
             <Box width={[0.8, 0.28]} className='mis-info' style={{margin: '2%'}}>
-                <a href={mis_rules} style={{ textDecoration: 'none' }} target='_blank'>
+                <a href={mis_rules} style={{ textDecoration: 'none' }} target='_blank' rel="noopener noreferrer">
                     <div>
-                        <h2 className='mis-link'>Safety Guidlines <img src="https://icon.now.sh/arrow/422a4C/18" /></h2>
+                        <h2 className='mis-link'>Safety Guidlines <img src="https://icon.now.sh/arrow/422a4C/18" alt="arrow" /></h2>
                     </div>
                 </a>
             </Box>
             <Box width={[0.8, 0.28]} className='mis-info' style={{margin: '2%'}}>
-                <a href='https://docs.google.com/spreadsheets/d/18Lu5pL6v0oYOnZQu4kYPGuUyiMvAfOHZXBH39udHVXI/edit' style={{ textDecoration: 'none' }} target='_blank'>
+                <a href='https://docs.google.com/spreadsheets/d/18Lu5pL6v0oYOnZQu4kYPGuUyiMvAfOHZXBH39udHVXI/edit' style={{ textDecoration: 'none' }} target='_blank' rel="noopener noreferrer">
                     <div>
-                        <h2 className='mis-link'>Equipment Information <img src="https://icon.now.sh/arrow/422a4C/18" /></h2>
+                        <h2 className='mis-link'>Equipment Information <img src="https://icon.now.sh/arrow/422a4C/18" alt="arrow" /></h2>
                     </div>
                 </a>
             </Box>
         </Flex>
         <Box width={[0.8, 0.28]} className='mis-email-link' style={{marginLeft: 'auto', marginRight: 'auto'}}>
-            <a href='mailto:mcminnovationspace@gmail.com' style={{ textDecoration: 'none' }} target='_blank'>
+            <a href='mailto:mcminnovationspace@gmail.com' style={{ textDecoration: 'none' }} target='_blank' rel="noopener noreferrer">
                 <div>
                     <h2 className='mis-link' style={{fontSize: '1em'}}>Email Us at mcminnovationspace@gmail.com</h2>
                 </div>
@@ -65,7 +65,7 @@ const McmInovationSpace = () => (
                             <h2 className='mis-major'>Major: {major}</h2>
                             <h2 className='mis-college'>College: {college}</h2>
                             <a href={`mailto:${email}`} style={{ textDecoration: 'none' }}>
-                                <h2 className='mis-email'><img src="https://icon.now.sh/arrow/422a4C/14" />{' '}{email}</h2>
+                                <h2 className='mis-email'><img src="https://icon.now.sh/arrow/422a4C/14" alt="email" />{' '}{email}</h2>
                             </a>
                             <h2 className='mis-askMeHeader'>Ask Me About:</h2>
                             <p className='mis-askMeAbout'>{askMeAbout}</p>
