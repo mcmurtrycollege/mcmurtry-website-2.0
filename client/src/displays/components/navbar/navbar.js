@@ -104,12 +104,12 @@ class DropDownNarrow extends React.Component {
                     {
                         this.props.headerTo !== undefined ? (
                             <Link to={this.props.headerTo} style={{ textDecoration: 'none' }}>
-                                <div className='dropdown-header' onClick={this.handleClick}>
+                                <div className={this.state.expanded ? ('dropdown-header-narrow-active') : ('dropdown=header-narrow-inactive')} onClick={this.handleClick}>
                                     {this.props.header}
                                 </div>
                             </Link>
                         ) : (
-                                <div className='dropdown-header' onClick={this.handleClick}>
+                                <div className={this.state.expanded ? ('dropdown-header-narrow-active') : ('dropdown=header-narrow-inactive')} onClick={this.handleClick}>
                                     {this.props.header}
                                 </div>
                             )

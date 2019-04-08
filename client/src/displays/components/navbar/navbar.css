@@ -72,11 +72,17 @@
     transition: background-color 0.3s ease-in-out;
 }
 
-.dropdown-header {
+.dropdown-header-narrow-inactive {
     color: #422a4C;
     display: block;
     padding: 5px;
-    
+}
+
+.dropdown-header-narrow-active {
+    background-color: #422a4C;
+    color: #DDCEE5;
+    display: block;
+    padding: 5px;
 }
 
 .dropdown-header:hover {
@@ -101,6 +107,7 @@
 .dropdown-subheaders {
     overflow: hidden;
     transition: max-height 0.7s ease-in-out;
+    max-height: 0px;
 }
 
 .narrow-navbar-toggle {
