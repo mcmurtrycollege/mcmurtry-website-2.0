@@ -2,7 +2,7 @@ import React from 'react';
 import { Box } from 'rebass';
 import Title from '../../../title';
 import AcademicCards from '../academic_contact_cards';
-import {paas_description, paas } from './paas.json';
+import { paas_description, head_paas, o_week_paas, year_long_paas } from './paas.json';
 import './paas.css';
 
 const PAAs = () => (
@@ -12,7 +12,22 @@ const PAAs = () => (
             {paas_description}
         </Box>
         <div>
-            <AcademicCards content={paas} height={200} />
+            <Box width={320} ml='auto' mr='auto'>
+                <h1 className='paas-title'>Head PAAs</h1>
+            </Box>
+            <AcademicCards content={head_paas} height={200} />
+        </div>
+        <div>
+            <Box width={320} ml='auto' mr='auto'>
+                <h1 className='paas-title'>O-Week Paas</h1>
+            </Box>
+            <AcademicCards content={o_week_paas} height={200} />
+        </div>
+        <div>
+            <Box width={320} ml='auto' mr='auto'>
+                <h1 className='paas-title'>Year Long PAAs</h1>
+            </Box>
+            <AcademicCards content={year_long_paas} height={200} />
         </div>
     </div>
 )
