@@ -17,7 +17,7 @@
             "members":[
                 {
                     "name":"Sachi Paul",
-                    "year":"",
+                    "year":"2021",
                     "email":"sp57@rice.edu"
                 }
             ]
@@ -30,6 +30,26 @@
                     "name":"Nick Meisburger",
                     "year":"2022",
                     "email":"ncm5@rice.edu"
+                },
+                {
+                    "name": "Shaquille Que",
+                    "year": "2022",
+                    "email": "stq1@rice.edu"
+                },
+                {
+                    "name": "Chatham Abate",
+                    "year": "2021",
+                    "email": "caa8@rice.edu"
+                },
+                {
+                    "name": "Melodi Doganay",
+                    "year": "2022",
+                    "email": "mnd2@ric.edu"
+                },
+                {
+                    "name": "Parth Parulekar",
+                    "year": "2022",
+                    "email": "psp3@rice.edu"
                 }
             ]
         },
@@ -40,7 +60,7 @@
                 {
                     "name":"An Luu",
                     "year":"2022",
-                    "email":""
+                    "email":"ahl4@rice.edu"
                 }
             ]
         },
@@ -51,7 +71,7 @@
                 {
                     "name":"Rachel Moore",
                     "year":"2022",
-                    "email":""
+                    "email":"mcmurtrytech@gmail.com"
                 }
             ]
         },
@@ -62,7 +82,7 @@
                 {
                     "name":"Em Echeverria",
                     "year":"2021",
-                    "email":""
+                    "email":"ese3@rice.edu"
                 }
             ]
         },
@@ -72,8 +92,8 @@
             "members":[
                 {
                     "name":"Grant Lu",
-                    "year":"",
-                    "email":""
+                    "year":"2021",
+                    "email":"gwl3@rice.edu"
                 }
             ]
         }
@@ -120,6 +140,27 @@
                     "name":"",
                     "year":"",
                     "email":""
+                }
+            ]
+        },
+        {
+            "name":"Murtchandise",
+            "description": "The Murtchandise committee is responsible for the design and procurement of McMurtry merchanise.",
+            "members":[
+                {
+                    "name":"Melodi Doganay",
+                    "year":"2022",
+                    "email":"mnd2@rice.edu"
+                },
+                {
+                    "name":"Kaitlan Easley",
+                    "year":"2022",
+                    "email":"kde4@rice.edu"
+                },
+                {
+                    "name":"Elena Margolin",
+                    "year":"2022",
+                    "email":"erm7@rice.edu"
                 }
             ]
         },
@@ -211,9 +252,29 @@
             "description": "External Socials are simply put, very very social. We plan events that feature Murts interacting with other colleges, including McMurtry's public party and Pub night. Our goal is to create activities that every Murt would love to participate in and to find ways to make sure every member of our college feels connected to the community by simply doing FUN STUFF. We are always ready to hear any input that anyone might have, and we cannot wait to make this an amazing year!",
             "members":[
                 {
-                    "name":"",
-                    "year":"",
-                    "email":""
+                    "name":"Benjamin Collier",
+                    "year":"2022",
+                    "email":"blc5@rice.edu"
+                },
+                {
+                    "name":"George Huang",
+                    "year":"2022",
+                    "email":"gih@rice.edu"
+                },
+                {
+                    "name":"Rachel Moore",
+                    "year":"2022",
+                    "email":"rcm7@rice.edu"
+                },
+                {
+                    "name":"Alyson Resnick",
+                    "year":"2022",
+                    "email":"amr21@rice.edu"
+                },
+                {
+                    "name":"Isabel Sjodin",
+                    "year":"2022",
+                    "email":"ijs1@rice.edu"
                 }
             ]
         },
@@ -222,9 +283,24 @@
             "description": "The Internal Socials committee - a group dedicated to fostering McMurtry spirit, bonding, and fun. But more importantly we’re dedicated to keeping McMurtry to as little studying as possible. The committee puts on various social events throughout the year including, but not limited to board game and movie nights, Fridays in the Quad, social mixer events and McSkate.",
             "members":[
                 {
-                    "name":"",
-                    "year":"",
-                    "email":""
+                    "name":"Aruni Areti",
+                    "year":"2022",
+                    "email":"asa12@rice.edu"
+                },
+                {
+                    "name":"Natty Askanase",
+                    "year":"2022",
+                    "email":"nda1@rice.edu"
+                },
+                {
+                    "name":"Sophie Marx",
+                    "year":"2022",
+                    "email":"shm7@rice.edu"
+                },
+                {
+                    "name":"Giovanni Pecchio",
+                    "year":"2022",
+                    "email":"gp30@rice.edu"
                 }
             ]
         }

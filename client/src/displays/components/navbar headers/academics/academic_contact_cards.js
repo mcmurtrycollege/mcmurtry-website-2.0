@@ -17,11 +17,11 @@ const AcademicContactCard = props => (
                 <h3 className="academic-contact-email"><img src="https://icon.now.sh/arrow/422a4C/10" alt="email" />{' '}{props.email}</h3>
             </a>
             <h2 className='academic-card-major'>
-                Major: {props.major}
+                <strong>Major: </strong>{props.major}
             </h2>
             {
                 props.subjects !== undefined ? (
-                    <h2 className="academic-subjects">Subjects: {props.subjects}</h2>
+                    <h2 className="academic-subjects"><strong>Subjects: </strong>{props.subjects}</h2>
 
                 ) : (
                         null

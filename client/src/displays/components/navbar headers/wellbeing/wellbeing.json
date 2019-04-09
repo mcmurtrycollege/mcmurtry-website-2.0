@@ -5,12 +5,12 @@
             {
                 "name":"Mitra Mirpour",
                 "phone":"(832) 248-4578",
-                "room": ""
+                "room": "463"
             },
             {
                 "name":"Emily Duffus",
-                "phone":"",
-                "room": ""
+                "phone":"(973) 508-6538",
+                "room": "230"
             },
             {
                 "name":"Melodi Doganay",
@@ -24,18 +24,18 @@
         "members":[
             {
                 "name":"Alex Curylo",
-                "phone":"",
-                "room": ""
+                "phone":"(314) 971-0876",
+                "room": "OC"
             },
             {
                 "name":"Emily Duffus",
-                "phone":"",
-                "room": ""
+                "phone":"(973) 508-6538",
+                "room": "230"
             },
             {
                 "name":"Akshaya Venkatesh",
-                "phone":"",
-                "room": ""
+                "phone":"(805) 428-9475",
+                "room": "544"
             },
             {
                 "name":"Melodi Doganay",
@@ -44,8 +44,8 @@
             },
             {
                 "name":"Caleb Robinson",
-                "phone":"",
-                "room": ""
+                "phone":"(601) 818-4858",
+                "room": "273"
             }
         ]
     }

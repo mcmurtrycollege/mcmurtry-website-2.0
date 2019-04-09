@@ -108,7 +108,7 @@ const navbar_items = [
     dropDownChildren: [
       {
         subheader: "Room Reservations",
-        to: ""
+        to: "/roomreservations/"
       },
       {
         subheader: "Work Orders",

@@ -26,7 +26,6 @@ class BoxSlider extends React.Component {
         }
         const style = {
             maxHeight: `${h}px`,
-            backgroundColor: '#9570A5'
         }
         return (
             <div>

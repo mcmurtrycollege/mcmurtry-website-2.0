@@ -9,7 +9,7 @@ export default class Court extends React.Component {
         return (
             <div className='court-page'>
                 <Title width={350} title="Court & Justices" />
-                <Cards content={justices} height={140} />
+                <Cards content={justices} height={140} width={240} />
             </div>
         )
     }

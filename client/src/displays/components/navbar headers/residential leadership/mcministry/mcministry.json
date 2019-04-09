@@ -27,8 +27,14 @@
         {
             "position": "External VP",
             "name": "Stephanie Ponce",
-            "year": "2020",
+            "year": "2021",
             "email": "mcmurtryevp@gmail.com"
+        },
+        {
+            "position": "SA Senator",
+            "name": "Dara Okeremi",
+            "year": "2022",
+            "email": "mcmurtrysenator@gmail.com"
         },
         {
             "position": "Secretary",
@@ -138,15 +144,15 @@
     "mccabinent":[
         {
             "position": "Honor Council Rep",
-            "name": "TBD",
-            "year": "TBD",
-            "email": "TBD"
+            "name": "Sanat Mehta",
+            "year": "2021",
+            "email": "sdm9@rice.edu"
         },
         {
             "position": "Parliamentarian",
-            "name": "Rolando Marquez",
-            "year": "2020",
-            "email": "rm58@rice.edu"
+            "name": "Emily Duffus",
+            "year": "2021",
+            "email": "mcmurtryparliamentarian@gmail.com"
         }
     ]
 }

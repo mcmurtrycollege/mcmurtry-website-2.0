@@ -16,14 +16,14 @@ const McmInovationSpace = () => (
             }
         </Box>
         <Flex flexWrap='wrap' justifyContent='center' flexDirection='row'>
-            <Box width={[0.8, 0.28]} className='mis-info' style={{margin: '2%'}}>
+            <Box width={[0.9, 0.28]} className='mis-info' style={{margin: '2%'}}>
                 <a href={mis_rules} style={{ textDecoration: 'none' }} target='_blank' rel="noopener noreferrer">
                     <div>
                         <h2 className='mis-link'>Safety Guidlines <img src="https://icon.now.sh/arrow/422a4C/18" alt="arrow" /></h2>
                     </div>
                 </a>
             </Box>
-            <Box width={[0.8, 0.28]} className='mis-info' style={{margin: '2%'}}>
+            <Box width={[0.9, 0.28]} className='mis-info' style={{margin: '2%'}}>
                 <a href='https://docs.google.com/spreadsheets/d/18Lu5pL6v0oYOnZQu4kYPGuUyiMvAfOHZXBH39udHVXI/edit' style={{ textDecoration: 'none' }} target='_blank' rel="noopener noreferrer">
                     <div>
                         <h2 className='mis-link'>Equipment Information <img src="https://icon.now.sh/arrow/422a4C/18" alt="arrow" /></h2>
@@ -31,8 +31,8 @@ const McmInovationSpace = () => (
                 </a>
             </Box>
         </Flex>
-        <Box width={[0.8, 0.28]} className='mis-email-link' style={{marginLeft: 'auto', marginRight: 'auto'}}>
-            <a href='mailto:mcminnovationspace@gmail.com' style={{ textDecoration: 'none' }} target='_blank' rel="noopener noreferrer">
+        <Box width={[0.9, 0.28]} className='mis-email-link' style={{marginLeft: 'auto', marginRight: 'auto', marginTop: '4%', marginBottom: '4%'}}>
+            <a href='mailto:mcminnovationspace@gmail.com' style={{ textDecoration: 'none' }} rel="noopener noreferrer">
                 <div>
                     <h2 className='mis-link' style={{fontSize: '1em'}}>Email Us at mcminnovationspace@gmail.com</h2>
                 </div>

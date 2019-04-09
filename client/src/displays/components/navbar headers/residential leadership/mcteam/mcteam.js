@@ -24,10 +24,10 @@ export default class McTeam extends React.Component {
         this.state = {
             current: 0
         }
-        this.handleClick = this.handleClick.bind(this);
+        this.handleEvent = this.handleEvent.bind(this);
     }
 
-    handleClick(index) {
+    handleEvent(index) {
         this.setState({ current: index })
     }
 
@@ -40,7 +40,7 @@ export default class McTeam extends React.Component {
                         {
                             positions.map(position => (
                                 <Box key={position}>
-                                    <div onMouseEnter={() => this.handleClick(positions.indexOf(position))}
+                                    <div onMouseEnter={() => this.handleEvent(positions.indexOf(position))} onClick={() => this.handleEvent(positions.indexOf(position))}
                                         className={this.state.current === positions.indexOf(position) ? "active-key" : "inactive-key"}>
                                         <p className='mcteam-key'>{position}</p>
                                     </div>

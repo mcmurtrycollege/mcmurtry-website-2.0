@@ -12,10 +12,10 @@ export default class Committees extends React.Component {
     constructor(props) {
         super(props);
         this.state = { current: 0 };
-        this.handleClick = this.handleClick.bind(this);
+        this.handleEvent = this.handleEvent.bind(this);
     }
 
-    handleClick(index) {
+    handleEvent(index) {
         this.setState({ current: index })
     }
 
@@ -28,7 +28,7 @@ export default class Committees extends React.Component {
                         {
                             division_names.map(division => (
                                 <Box key={division}>
-                                    <div onMouseEnter={() => this.handleClick(division_names.indexOf(division))}
+                                    <div onMouseEnter={() => this.handleEvent(division_names.indexOf(division))} onClick={() => this.handleEvent(division_names.indexOf(division))}
                                         className={this.state.current === division_names.indexOf(division) ? "active-key" : "inactive-key"}>
                                         <p className='key'>{`${division}`}</p>
                                     </div>
@@ -49,7 +49,7 @@ export default class Committees extends React.Component {
                             <Box width={165} className='members-title' ml='auto' mr='auto'>
                                 <h1 className='members-title-content'>Members</h1>
                             </Box>
-                            <Cards content={members} height={100} />
+                            <Cards content={members} height={110}  width={230} />
                             <Box width={0.7} className='divider' ml='auto' mr='auto'></Box>
                         </div>
                     ))

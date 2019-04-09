@@ -7,7 +7,7 @@ import { RHAs } from './wellbeing.json';
 
 const ResidentHealthAdvisors = () => (
     <div className='wellbeing-page'>
-        <Title width={350} title="Resident Health Advisors" smallText={true} />
+        <Title width={350} title="Rice Health Advisors" smallText={true} />
         <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='wellbeing-description'>
             {RHAs.description}
         </Box>
