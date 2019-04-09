@@ -5,7 +5,7 @@
     margin-right: auto;
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 999px){
     .mcm-crest {
         background-color: #DDCEE5;
         border: solid #422a4C;
