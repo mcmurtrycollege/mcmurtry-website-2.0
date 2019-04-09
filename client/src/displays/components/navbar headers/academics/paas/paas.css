@@ -9,3 +9,12 @@
     margin-top: 30px;
     padding: 30px;
 }
+
+.paas-title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    border: 2px solid #422a4C;
+    padding: 8px;
+    color: #422a4C;
+}

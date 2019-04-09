@@ -1,6 +1,6 @@
 {
     "paas_description": "PAAs provide peer advice to fellow students about a wide range of academically-related topics. With personal experience as a Rice student and training from the Office of Academic Advising, PAAs offer accurate advice regarding specific courses, co-curricular opportunities, academic rules and procedures, and a wide range of other topics.",
-    "paas": [
+    "head_paas": [
         {
             "position": "Head PAA",
             "name": "Jonathan Bloom",
@@ -18,12 +18,9 @@
             "name": "Rolando Marquez",
             "email": "rm58@rice.edu",
             "major":"Bioengineering; Pre-Med"
-        },
-        
-
-
-
-
+        }
+    ],
+    "o_week_paas":[
         {
             "position": "O-Week PAA",
             "name": "Dylan Nguyen",
@@ -47,19 +44,14 @@
             "name": "Akshaya Venkatesh",
             "email": "av54@rice.edu",
             "major":"Cognitive Sciences, Busines minor, Biochemistry and Cell Biology Minor; Pre-Med"
-        },
-
-
-
-
-
+        }
+    ],
+    "year_long_paas":[
         {
             "position": "Year-Long PAA",
             "name": "Jonathan Bloom",
             "email": "jsb8@rice.edu",
             "major":"Chemical and Biomolecular Engineering"
         }
-        
-        
     ]
 }
