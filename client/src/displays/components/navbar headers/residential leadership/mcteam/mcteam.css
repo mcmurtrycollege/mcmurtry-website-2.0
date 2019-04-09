@@ -41,7 +41,7 @@
         color: #DDCEE5;
         text-align: center;
         width: 62px;
-        height: 40px;
+        height: 50px;
     }
     
     .inactive-key {
@@ -49,7 +49,7 @@
         text-align: center;
         transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
         width: 62px;
-        height: 40px;
+        height: 50px;
     }
 }
 

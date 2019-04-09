@@ -3,7 +3,7 @@ import { Box, Flex } from 'rebass';
 import './academic_cards.css';
 
 const AcademicContactCard = props => (
-    <Box className='academic-card' width={250}>
+    <Box className='academic-card' width={[0.8, 0.3]}>
         <div className="academic-card-content" style={{height: props.height}}>
             {
                 props.position !== undefined ? (

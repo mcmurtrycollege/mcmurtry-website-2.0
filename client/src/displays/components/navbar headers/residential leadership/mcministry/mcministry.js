@@ -10,10 +10,10 @@ export default class McMinistry extends React.Component {
         return (
             <div className='mcministry-page'>
                 <Title width={290} title="McMinistry" />
-                <Box width={320} ml='auto' mr='auto'>
+                <Box width={[320]} ml='auto' mr='auto'>
                     <h1 className='division-title'>Executive Council</h1>
                 </Box>
-                <Cards content={executive_council} height={150} width={260} />
+                <Cards content={executive_council} height={150} width={[0.8, 0.3]} />
                 <Box width={300} ml='auto' mr='auto'>
                     <h1 className='division-title'>People's Council</h1>
                 </Box>
