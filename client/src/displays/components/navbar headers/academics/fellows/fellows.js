@@ -12,7 +12,7 @@ const AcademicFellows = () => (
             {fellows_description}
         </Box>
         <div>
-            <AcademicCards content={fellows} height={150} />
+            <AcademicCards content={fellows} height={200} />
         </div>
     </div>
 )
