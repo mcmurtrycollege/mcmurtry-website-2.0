@@ -1,5 +1,7 @@
 import React from 'react';
 import { Box, Flex } from 'rebass';
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Dot } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 import Cards from '../../../contactcards';
 import Title from '../../../title';
 import { internal, external, social } from './committees.json';
@@ -20,6 +22,18 @@ export default class Committees extends React.Component {
     }
 
     render() {
+        let dots = [];
+        for (let i = 0; i < divisions[this.state.current].length; i++) {
+            dots.push(
+                <Dot slide={i} className="dot-style" key={`dot${i}`} />
+            )
+        }
+        let h;
+        if (window.screen.width < 600){
+            h = 370
+        }   else {
+            h = 60
+        }
         return (
             <div className="committee-page">
                 <Title width={320} title="Committees" />
@@ -37,23 +51,39 @@ export default class Committees extends React.Component {
                         }
                     </Flex>
                 </div>
-                {
-                    divisions[this.state.current].map(({ name, description, members }) => (
-                        <div key={`${name}`}>
-                            <Box width={320} ml='auto' mr='auto'>
-                                <h1 className='division-title'>{name}</h1>
-                            </Box>
-                            <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='committee-description'>
-                                {description}
-                            </Box>
-                            <Box width={165} className='members-title' ml='auto' mr='auto'>
-                                <h1 className='members-title-content'>Members</h1>
-                            </Box>
-                            <Cards content={members} height={110}  width={230} />
-                            <Box width={0.7} className='divider' ml='auto' mr='auto'></Box>
-                        </div>
-                    ))
-                }
+                <CarouselProvider naturalSlideWidth={100} naturalSlideHeight={h} totalSlides={divisions[this.state.current].length}>
+                    <div className='wide-btns'>
+                        <ButtonBack className='wide-back-slide-btn'><img src="https://icon.now.sh/chevron/DDCEE5/left/99" alt="<" /></ButtonBack>
+                        <ButtonNext className='wide-next-slide-btn'><img src="https://icon.now.sh/chevron/DDCEE5/99" alt=">" /></ButtonNext>
+                    </div>
+                    <div className='narrow-btns'>
+                        <ButtonBack className='narrow-back-slide-btn'><img src="https://icon.now.sh/chevron/DDCEE5/left/40" alt="<"/></ButtonBack>
+                        <ButtonNext className='narrow-next-slide-btn'><img src="https://icon.now.sh/chevron/DDCEE5/40" alt=">" /></ButtonNext>
+                    </div>
+                    <Flex justifyContent='center' flexDirection='row'>
+                        {dots}
+                    </Flex>
+                    <Slider>
+                        {
+                            divisions[this.state.current].map((committee) => (
+                                <Slide index={divisions[this.state.current].indexOf(committee)} key={`${committee.name}`} >
+                                    <div>
+                                        <Box width={320} ml='auto' mr='auto'>
+                                            <h1 className='division-title'>{committee.name}</h1>
+                                        </Box>
+                                        <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='committee-description'>
+                                            {committee.description}
+                                        </Box>
+                                        <Box width={165} className='members-title' ml='auto' mr='auto'>
+                                            <h1 className='members-title-content'>Members</h1>
+                                        </Box>
+                                        <Cards content={committee.members} height={110} width={240} />
+                                    </div>
+                                </Slide>
+                            ))
+                        }
+                    </Slider>
+                </CarouselProvider>
             </div>
         )
     }

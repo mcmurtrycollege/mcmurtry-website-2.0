@@ -104,9 +104,14 @@
             "description": "Wondering how McMurtry alumni keep in touch with the best college at Rice? Look no further than the Alumni Committee. Our committee sends out a newsletter each semester during the school year to all McMurtry alums, updating them on what's going on at Rice and McMurtry. We also plan events at McMurtry that include alumni such as during Homecoming, McMurtry Day, and Beer Bike! Our goals are to reach out to the young, enthusiastic classes that just graduated our college and get them involved in making McMurtry's culture amazing.",
             "members":[
                 {
-                    "name":"",
-                    "year":"",
-                    "email":""
+                    "name":"Lily Cao",
+                    "year":"2020",
+                    "email":"ljc4@rice.edu"
+                },
+                {
+                    "name":"Lauren Loh",
+                    "year":"2020",
+                    "email":"lsl3@rice.edu"
                 }
             ]
         },
@@ -115,9 +120,19 @@
             "description": "The Associates Committee serves as a liaison between McMurtry's students and associates. McMurtry associates are Rice faculty as well as adult professionals in the Houston area who are associated with Rice. They serve as mentors, friends, academic advisers, and general resources for students. The Associates Committee hosts intellectual events, monthly lunches, study breaks, holiday events, and a formal Associates' Night each semester. The committee also organizes O-week group lunches with associates, as well as a pre-O-week reception and dinner.",
             "members":[
                 {
-                    "name":"",
-                    "year":"",
-                    "email":""
+                    "name":"Katherine Bartos",
+                    "year":"2022",
+                    "email":"keb17@rice.edu"
+                },
+                {
+                    "name":"Isabel Sjodin",
+                    "year":"2022",
+                    "email":"ijs1@rice.edu"
+                },
+                {
+                    "name":"Akshaya Venkatesh",
+                    "year":"2022",
+                    "email":"av54@rice.edu"
                 }
             ]
         },
@@ -126,9 +141,9 @@
             "description": "The Intramural Sports committee serves several athletics-related roles, with the most important being getting Murts involved! By serving as liaison between McMurtry and IMS (the rec center), the sports committee works to promote both college and intramural sports, help people sign up, and represent McMurtry to IMS. Committee members also work with powerpuff (yay powderpuff!), work to get competing Murts in legit athletic swag, and generally love sports themselves.",
             "members":[
                 {
-                    "name":"",
-                    "year":"",
-                    "email":""
+                    "name":"Hannah Boyd",
+                    "year":"2022",
+                    "email":"hrb3@rice.edu"
                 }
             ]
         },
@@ -137,9 +152,19 @@
             "description": "Enjoy volunteering but not sure you can make a long-term commitment? Want to spend time with other students while making an impact? Want to pick one non-profit with which you can make an impact for 4 years? The Philanthropy Committee encourages student engagement in the community and supports Houston organizations by organizing fun service opportunities both on and off campus throughout the year. We also partner with other colleges and the Rice Service Council to coordinate large-scale events.",
             "members":[
                 {
-                    "name":"",
+                    "name":"Anna Girardeau",
                     "year":"",
-                    "email":""
+                    "email":"arg10@rice.edu"
+                },
+                {
+                    "name":"Jennifer Ho",
+                    "year":"",
+                    "email":"jh86@rice.edu"
+                },
+                {
+                    "name":"Sana Mohamed",
+                    "year":"",
+                    "email":"sam22@rice.edu"
                 }
             ]
         },
@@ -165,88 +190,28 @@
             ]
         },
         {
-            "name":"Varsity Sports Liaison",
-            "description": "The Varsity Sports Liaison is responsible for connecting McMurtry to all varsity sports on campus! We host tailgates and other cool events!",
+            "name":"Traditions",
+            "description": "The traditions committee is the link between current McMurtry and our past. They keep track of McMurtry history through photos, scrapbooks, articles, and the Rice archives. Even more than just recording the college history, they are capturing the history of each and every Murt student, so know one ever forgets their McMurtry experience.",
             "members":[
                 {
-                    "name":"",
-                    "year":"",
-                    "email":""
-                }
-            ]
-        },
-        {
-            "name":"Seniors",
-            "description": "The senior committee is responsible for planning and hosting fun events for the senior class throughout the year. Various events include the champagne toast kickoff, wine and cheese tasting, off-campus bar hopping, senior tailgates, and other senior-exclusive events. The goal of the committee is to ensure that all McMurtry seniors truly enjoy their last year with the college family.",
-            "members":[
+                    "name":"Mac Carr",
+                    "year":"2022",
+                    "email":"mac28@rice.edu"
+                },
                 {
-                    "name":"",
-                    "year":"",
-                    "email":""
-                }
-            ]
-        },
-        {
-            "name":"Historian",
-            "description": "The historian committee is the link between current McMurtry and our past. They keep track of McMurtry history through photos, scrapbooks, articles, and the Rice archives. Even more than just recording the college history, they are capturing the history of each and every Murt student, so know one ever forgets their McMurtry experience.",
-            "members":[
+                    "name":"Rachel Moore",
+                    "year":"2022",
+                    "email":"rcm7@rice.edu"
+                },
                 {
-                    "name":"",
-                    "year":"",
-                    "email":""
+                    "name":"Kelsey Sanders",
+                    "year":"2020",
+                    "email":"kns4@rice.edu"
                 }
             ]
         }
     ],
     "social": [
-        {
-            "name":"Beer Bike",
-            "description": "Beer Bike. Some say it's the best day of the year. Others say it's the best day of their lives (with the exception of the other Beer Bikes they were fortunate enough to attend). The Beer Bike Committee is in charge of making this monumentous day a reality for all of McMurtry to enjoy. Whether it be assisting the Biking or Chugging Teams, organizing water balloon filling, or rounding people up for an epic jack on… Duncan (of course) – there is something for everyone (including new students) to do!",
-            "members":[
-                {
-                    "name":"Jake Bhoi",
-                    "year":"2020",
-                    "email":"jdb15@rice.edu"
-                },
-                {
-                    "name":"Ansli Yilmaz",
-                    "year":"2020",
-                    "email":"ay20@rice.edu"
-                },
-                {
-                    "name":"Grant Lu",
-                    "year":"2020",
-                    "email":"gwl3@rice.edu"
-                },
-                {
-                    "name":"Mitra Mirpour",
-                    "year":"2020",
-                    "email":"mm102@rice.edu"
-                }
-            ]
-        },
-        {
-            "name":"Burts",
-            "description": "The Burts committee is dedicated to putting on quirky, intellectual events in our unique Burt’s Lounge! Anyone is always welcome to our tea breaks, faculty-hosted talks, or just to hang out!",
-            "members":[
-                {
-                    "name":"",
-                    "year":"",
-                    "email":""
-                }
-            ]
-        },
-        {
-            "name":"Culturals",
-            "description": "The McMurtry Cultural Committee exists to engage students in the diversity of the Houston community. Currently, Culturals subsidizes ethnic restaurants along the METRO-rail, provides themed study breaks, and is responsible for the college Hookah, amongst other fascinating cultural things. The committee also facilitates opportunities for free events and shows in Houston through a liaison with RPC. Here mostly to provide McMurtry with free food and concerts, the Cultural Committee ensures McMurtry is never short of fun things to do both within and beyond the hedges.",
-            "members":[
-                {
-                    "name":"",
-                    "year":"",
-                    "email":""
-                }
-            ]
-        },
         {
             "name":"External Socials",
             "description": "External Socials are simply put, very very social. We plan events that feature Murts interacting with other colleges, including McMurtry's public party and Pub night. Our goal is to create activities that every Murt would love to participate in and to find ways to make sure every member of our college feels connected to the community by simply doing FUN STUFF. We are always ready to hear any input that anyone might have, and we cannot wait to make this an amazing year!",
@@ -301,6 +266,69 @@
                     "name":"Giovanni Pecchio",
                     "year":"2022",
                     "email":"gp30@rice.edu"
+                }
+            ]
+        },
+        {
+            "name":"Beer Bike",
+            "description": "Beer Bike. Some say it's the best day of the year. Others say it's the best day of their lives (with the exception of the other Beer Bikes they were fortunate enough to attend). The Beer Bike Committee is in charge of making this monumentous day a reality for all of McMurtry to enjoy. Whether it be assisting the Biking or Chugging Teams, organizing water balloon filling, or rounding people up for an epic jack on… Duncan (of course) – there is something for everyone (including new students) to do!",
+            "members":[
+                {
+                    "name":"Jonathan Bloom",
+                    "year":"2021",
+                    "email":"jsb8@rice.edu"
+                },
+                {
+                    "name":"Alex Curylo",
+                    "year":"2021",
+                    "email":"alc10@rice.edu"
+                },
+                {
+                    "name":"Emily Duffus",
+                    "year":"2021",
+                    "email":"ekd2@rice.edu"
+                },
+                {
+                    "name":"Augi Liebster",
+                    "year":"2021",
+                    "email":"adl5@rice.edu"
+                }
+            ]
+        },
+        {
+            "name":"Burts",
+            "description": "The Burts committee is dedicated to putting on quirky, intellectual events in our unique Burt’s Lounge! Anyone is always welcome to our tea breaks, faculty-hosted talks, or just to hang out!",
+            "members":[
+                {
+                    "name":"Krishna Chandra",
+                    "year":"2022",
+                    "email":"kc60@rice.edu"
+                },
+                {
+                    "name":"Julia Robinson",
+                    "year":"2021",
+                    "email":"jmr18@rice.edu"
+                },
+                {
+                    "name":"Sam Rossum",
+                    "year":"2020",
+                    "email":"sdr5@rice.edu"
+                }
+            ]
+        },
+        {
+            "name":"Culturals",
+            "description": "The McMurtry Cultural Committee exists to engage students in the diversity of the Houston community. Currently, Culturals subsidizes ethnic restaurants along the METRO-rail, provides themed study breaks, and is responsible for the college Hookah, amongst other fascinating cultural things. The committee also facilitates opportunities for free events and shows in Houston through a liaison with RPC. Here mostly to provide McMurtry with free food and concerts, the Cultural Committee ensures McMurtry is never short of fun things to do both within and beyond the hedges.",
+            "members":[
+                {
+                    "name":"Mariana Najera",
+                    "year":"",
+                    "email":"mn39@rice.edu"
+                },
+                {
+                    "name":"Tyler Sakakeeny",
+                    "year":"2021",
+                    "email":"tcs9@rice.edu"
                 }
             ]
         }

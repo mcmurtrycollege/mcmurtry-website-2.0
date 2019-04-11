@@ -111,6 +111,10 @@ const navbar_items = [
         to: "/roomreservations/"
       },
       {
+        subheader: "McMurtry Resources",
+        to: "/mcmresources/"
+      },
+      {
         subheader: "Work Orders",
         to: '/workorder/'
       },

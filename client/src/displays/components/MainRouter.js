@@ -15,6 +15,7 @@ import AcademicFellows from './navbar headers/academics/fellows/fellows';
 import ResidentHealthAdvisors from './navbar headers/wellbeing/resident_health_advisors';
 import StriveLiaisons from './navbar headers/wellbeing/strive_liaisons';
 import RoomReservations from './navbar headers/resources/roomreservations/roomreservations';
+import McmResources from './navbar headers/resources/mcmurtryresources/mcmresources';
 import WorkOrder from './navbar headers/resources/workorder/workorder';
 import InitiativeRequest from './navbar headers/resources/initiativerequest/initiativerequest';
 import EquipmentRequest from './navbar headers/resources/equipmentrequest/equipmentrequest';
@@ -48,6 +49,7 @@ class MainRouter extends Component {
               <Route exact path='/RHAs' component={ResidentHealthAdvisors} />
               <Route exact path="/striveliaisons" component={StriveLiaisons} />
               <Route exact path="/roomreservations" component={RoomReservations} />
+              <Route exact path="/mcmresources" component={McmResources} />
               <Route exact path="/workorder" component={WorkOrder} />
               <Route exact path="/initiativerequest" component={InitiativeRequest} />
               <Route exact path="/equipment" component={EquipmentRequest} />

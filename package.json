@@ -18,6 +18,7 @@
   "dependencies": {
     "concurrently": "^3.5.1",
     "express": "^4.16.2",
+    "pure-react-carousel": "^1.19.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "rebass": "^3.1.0",

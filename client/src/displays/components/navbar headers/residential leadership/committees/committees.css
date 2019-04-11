@@ -78,9 +78,91 @@
     margin-bottom: 4px;
 }
 
-.divider {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    height: 2px;
-    background-color: #422a4C;
+.wide-back-slide-btn {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 20%;
+    z-index: 999;
+    background: none;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.wide-back-slide-btn:hover {
+    transform: scale(1.3);
+}
+
+.wide-next-slide-btn {
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 20%;
+    z-index: 999;
+    background: none;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.wide-next-slide-btn:hover {
+    transform: scale(1.3);
+}
+
+.narrow-back-slide-btn {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 0%;
+    z-index: 999;
+    background: none;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.narrow-next-slide-btn:hover {
+    transform: scale(1.3);
+}
+
+.narrow-next-slide-btn {
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 0%;
+    z-index: 999;
+    background: none;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.narrow-next-slide-btn:hover {
+    transform: scale(1.3);
+}
+
+
+@media screen and (min-width: 900px){
+    .narrow-btns {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 899px){
+    .wide-btns {
+        display: none;
+    }
+
+    .division-title {
+        margin-top: 40px;
+    }
+}
+
+.dot-style {
+    border: 0px solid #422a4C;
+    padding: 7px;
+    margin-top: 3%;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    background-color: #DDCEE5;
+    transition: transform 0.2s ease-in-out;
+}
+
+.dot-style:hover {
+    transform: scale(2);
 }

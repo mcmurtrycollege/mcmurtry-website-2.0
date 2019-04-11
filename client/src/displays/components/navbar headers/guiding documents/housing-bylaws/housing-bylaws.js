@@ -2,12 +2,16 @@ import React from 'react';
 import Title from '../../../title';
 import './housing-bylaws.css';
 
+import housingBylaws from '../../../../static/mcm_housing_bylaws.pdf';
 
 const HousingBylaws = () => (
     <div className='housing-bylaws-page'>
         <Title width={260} title="Housing Bylaws" />
-        <div className='housing-bylaws-pdf'>
-            <iframe src="https://mcmurtry.rice.edu/assets/files/mcm_housing_bylaws.pdf" width="600" height="820" frameBorder="0" scrolling="yes" title="Housing Bylaws"></iframe>
+        <div className='wide-housing-bylaws-pdf'>
+            <embed src={housingBylaws} type="application/pdf" width="600" height="820px" page="8" scrollbar="1" toolbar="1" />
+        </div>
+        <div className='narrow-housing-bylaws-pdf'>
+            <embed src={housingBylaws} type="application/pdf" width="360" height="820px" page="8" scrollbar="1" toolbar="1" />
         </div>
     </div>
 )

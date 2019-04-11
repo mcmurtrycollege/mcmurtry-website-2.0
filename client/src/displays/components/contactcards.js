@@ -3,7 +3,6 @@ import { Box, Flex } from 'rebass';
 import './contactcards.css';
 
 const Card = props => (
-
     < Box className='position-card' width={props.width} >
         <div className="position-card-content" style={{ height: props.height }}>
             {
@@ -13,7 +12,6 @@ const Card = props => (
                         null
                     )
             }
-
             {
                 props.name === "Matty Whales" ? (
                     <a href="https://giphy.com/gifs/despicable-me-minions-gif-7kr2R9KwOGMLe/fullscreen" style={{textDecoration: "none"}}>

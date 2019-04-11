@@ -2,12 +2,16 @@ import React from 'react';
 import Title from '../../../title';
 import './general-bylaws.css';
 
+import genBylaws from '../../../../static/mcm_bylaws.pdf';
 
 const GeneralBylaws = () => (
     <div className='general-bylaws-page'>
         <Title width={260} title="General Bylaws" />
-        <div className='general-bylaws-pdf'>
-            <iframe src="https://mcmurtry.rice.edu/assets/files/mcm_bylaws.pdf" width="600" height="820" frameBorder="0" scrolling="yes" title="General Bylaws"></iframe>
+        <div className='wide-general-bylaws-pdf'>
+            <embed src={genBylaws} type="application/pdf" width="600" height="820px" page="8" scrollbar="1" toolbar="1" />
+        </div>
+        <div className='narrow-general-bylaws-pdf'>
+            <embed src={genBylaws} type="application/pdf" width="360" height="820px" page="8" scrollbar="1" toolbar="1" />
         </div>
     </div>
 )
