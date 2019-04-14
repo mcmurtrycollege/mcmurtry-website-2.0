@@ -3,7 +3,7 @@ import { Box, Flex } from 'rebass';
 import './academic_cards.css';
 
 const AcademicContactCard = props => (
-    <Box className='academic-card' width={[0.8, 0.3]}>
+    <Box className='academic-card' width={props.width}>
         <div className="academic-card-content" style={{height: props.height}}>
             {
                 props.position !== undefined ? (
@@ -36,7 +36,7 @@ const AcademicCards = props => (
         <Flex flexWrap='wrap' flexDirection='row' justifyContent='center'>
             {
                 props.content.map(({ position, name, email, major, subjects }) => (
-                    <AcademicContactCard height={props.height} key={name} position={position} name={name} email={email} major={major} subjects={subjects} />
+                    <AcademicContactCard height={props.height} width={props.width} key={name} position={position} name={name} email={email} major={major} subjects={subjects} />
                 ))
             }
         </Flex>

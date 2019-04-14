@@ -2,7 +2,7 @@
     .wide-navbar {
         display: flex;
         flex-direction: row;
-        position: fixed;
+        position: absolute;
     }
 
     .narrow-navbar {
@@ -48,7 +48,6 @@
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
-    position: absolute;
     z-index: 999;
     width: 100%;
 }

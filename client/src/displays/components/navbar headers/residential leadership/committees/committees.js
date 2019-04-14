@@ -29,9 +29,11 @@ export default class Committees extends React.Component {
             )
         }
         let h;
-        if (window.screen.width < 600){
+        if (window.screen.width < 600) {
             h = 370
-        }   else {
+        } else if (window.screen.width < 1150) {
+            h = 140
+        } else {
             h = 60
         }
         return (
@@ -57,7 +59,7 @@ export default class Committees extends React.Component {
                         <ButtonNext className='wide-next-slide-btn'><img src="https://icon.now.sh/chevron/DDCEE5/99" alt=">" /></ButtonNext>
                     </div>
                     <div className='narrow-btns'>
-                        <ButtonBack className='narrow-back-slide-btn'><img src="https://icon.now.sh/chevron/DDCEE5/left/40" alt="<"/></ButtonBack>
+                        <ButtonBack className='narrow-back-slide-btn'><img src="https://icon.now.sh/chevron/DDCEE5/left/40" alt="<" /></ButtonBack>
                         <ButtonNext className='narrow-next-slide-btn'><img src="https://icon.now.sh/chevron/DDCEE5/40" alt=">" /></ButtonNext>
                     </div>
                     <Flex justifyContent='center' flexDirection='row'>
@@ -68,10 +70,10 @@ export default class Committees extends React.Component {
                             divisions[this.state.current].map((committee) => (
                                 <Slide index={divisions[this.state.current].indexOf(committee)} key={`${committee.name}`} >
                                     <div>
-                                        <Box width={320} ml='auto' mr='auto'>
-                                            <h1 className='division-title'>{committee.name}</h1>
-                                        </Box>
                                         <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='committee-description'>
+                                            <Box width={320} ml='auto' mr='auto'>
+                                                <h1 className='division-title'>{committee.name}</h1>
+                                            </Box>
                                             {committee.description}
                                         </Box>
                                         <Box width={165} className='members-title' ml='auto' mr='auto'>

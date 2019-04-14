@@ -15,19 +15,19 @@ const PAAs = () => (
             <Box width={320} ml='auto' mr='auto'>
                 <h1 className='paas-title'>Head PAAs</h1>
             </Box>
-            <AcademicCards content={head_paas} height={200} />
+            <AcademicCards content={head_paas} width={300} height={200} />
         </div>
         <div>
             <Box width={320} ml='auto' mr='auto'>
                 <h1 className='paas-title'>O-Week Paas</h1>
             </Box>
-            <AcademicCards content={o_week_paas} height={200} />
+            <AcademicCards content={o_week_paas} width={340} height={200} />
         </div>
         <div>
             <Box width={320} ml='auto' mr='auto'>
                 <h1 className='paas-title'>Year Long PAAs</h1>
             </Box>
-            <AcademicCards content={year_long_paas} height={200} />
+            <AcademicCards content={year_long_paas} width={300} height={200} />
         </div>
     </div>
 )
