@@ -11,8 +11,8 @@ const AcademicFellows = () => (
         <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='fellows-description'>
             {fellows_description}
         </Box>
-        <div>
-            <AcademicCards content={fellows} height={200} />
+        <div style={{marginTop: '2%'}}>
+            <AcademicCards content={fellows} height={200} width={300} />
         </div>
     </div>
 )

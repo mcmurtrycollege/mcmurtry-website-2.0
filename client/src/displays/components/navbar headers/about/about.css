@@ -5,6 +5,11 @@
     }
 }
 
+.about-subtitle {
+    text-align: center;
+    border: 2px solid #422A4C;
+}
+
 .about-text {
     padding: 20px;
     background-color: #DDCEE5;
