@@ -96,10 +96,6 @@ const navbar_items = [
       {
         subheader: "Pixar Studio Week",
         href: 'https://mcmurtryoweek.wixsite.com/home-page'
-      },
-      {
-        subheader: "O-Week Advisors",
-        to: ""
       }
     ]
   },

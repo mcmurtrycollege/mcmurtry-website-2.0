@@ -1,4 +1,5 @@
 import React from 'react';
+import { Box } from 'rebass';
 import Title from '../../../title';
 import './equipmentrequest.css';
 
@@ -6,12 +7,12 @@ import './equipmentrequest.css';
 const EquipmentRequest = () => (
     <div className='equipment-request-page'>
         <Title width={360} title="Equipment Request" />
-        <div className='wide-equipment-request-form'>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSekrzRmxwFU8DxqwLAxV94b9OFyesTLxkmwjituOuCSIjUjtQ/viewform?embedded=true&formkey=dFRXRWdxa20yMlF2dEN2U1lSNWxSemc6MQ" width="700" height="2200" frameBorder="0" scrolling="yes" type="text/javascript" title="Equipment Request"></iframe>
-        </div>
-        <div className='narrow-equipment-request-form'>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSekrzRmxwFU8DxqwLAxV94b9OFyesTLxkmwjituOuCSIjUjtQ/viewform?embedded=true&formkey=dFRXRWdxa20yMlF2dEN2U1lSNWxSemc6MQ" width="360" height="2650" frameBorder="0" scrolling="yes" type="text/javascript" title="Equipment Request"></iframe>
-        </div>
+        <Box width={300} ml='auto' mr='auto' className='tech-request'>
+            <h3>
+                Please direct all technology and equipment requests to <a href='mailto:mcmurtrytech@gmail.com' className='tech-request-link'>mcmurtrytech@gmail.com</a>.
+            </h3>
+        </Box>
+
     </div>
 )
 

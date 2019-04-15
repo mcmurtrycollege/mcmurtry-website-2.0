@@ -38,12 +38,12 @@ class DropDownWide extends React.Component {
                     {
                         this.props.headerTo !== undefined ? (
                             <Link to={this.props.headerTo} style={{ textDecoration: 'none' }}>
-                                <div className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
+                                <div style={this.props.fixedNavbar ? ({backgroundColor: "#DDCEE5"}) : ({})} className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
                                     {this.props.header}
                                 </div>
                             </Link>
                         ) : (
-                                <div className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
+                                <div style={this.props.fixedNavbar ? ({backgroundColor: "#DDCEE5"}) : ({})} className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
                                     {this.props.header}
                                 </div>
                             )
@@ -146,15 +146,33 @@ class NavBar extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            closed: true
+            closed: true,
+            fixedNavbar: false
         }
         this.handleClick = this.handleClick.bind(this);
+        this.scrollHandler = this.scrollHandler.bind(this);
     }
 
     handleClick() {
         this.setState({
             closed: !this.state.closed
         })
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.scrollHandler)
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.scrollHandler)
+    }
+
+    scrollHandler() {
+        if (window.scrollY > document.getElementById('mcm-header').clientHeight) {
+            this.setState({fixedNavbar: true})
+        } else {
+            this.setState({fixedNavbar: false})
+        }
     }
 
     render() {
@@ -167,19 +185,25 @@ class NavBar extends React.Component {
             burgerStyle.transform = 'rotate(90deg)'
         }
 
+        let fixedNavbar = {}
+        if (this.state.fixedNavbar) {
+            fixedNavbar.position = 'fixed'
+            fixedNavbar.marginTop = `-${document.getElementById('mcm-header').clientHeight + 2}px`
+        }
+
         return (
             <div>
                 <div className='navbar-crest'>
                     <McmLogo />
                 </div>
-                <div className='wide-navbar'>
-                    <div className='filler-box' />
+                <div className='wide-navbar' style={fixedNavbar}>
+                    <div className='filler-box' style={this.state.fixedNavbar ? ({backgroundColor: "#DDCEE5"}) : ({})}/>
                     {
                         this.props.dropDownItems.map(({ header, headerTo, dropDownChildren }) => (
-                            <DropDownWide header={header} headerTo={headerTo} dropDownChildren={dropDownChildren} key={`${header}`} />
+                            <DropDownWide header={header} headerTo={headerTo} dropDownChildren={dropDownChildren} key={`${header}`} fixedNavbar={this.state.fixedNavbar} />
                         ))
                     }
-                    <div className='filler-box' />
+                    <div className='filler-box' style={this.state.fixedNavbar ? ({backgroundColor: "#DDCEE5"}) : ({})}/>
                 </div>
                 <div className='narrow-navbar'>
                     <div className='narrow-navbar-toggle' >
