@@ -33,17 +33,17 @@ class DropDownWide extends React.Component {
             maxHeight: `${h}px`,
         }
         return (
-            <div className='dropdown-item' onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} style={{width: '10%'}}>
+            <div className='dropdown-item' onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} style={{ width: '10%' }}>
                 <div>
                     {
                         this.props.headerTo !== undefined ? (
                             <Link to={this.props.headerTo} style={{ textDecoration: 'none' }}>
-                                <div style={this.props.fixedNavbar ? ({backgroundColor: "#DDCEE5"}) : ({})} className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
+                                <div style={this.props.fixedNavbar ? ({ backgroundColor: "#DDCEE5" }) : ({})} className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
                                     {this.props.header}
                                 </div>
                             </Link>
                         ) : (
-                                <div style={this.props.fixedNavbar ? ({backgroundColor: "#DDCEE5"}) : ({})} className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
+                                <div style={this.props.fixedNavbar ? ({ backgroundColor: "#DDCEE5" }) : ({})} className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
                                     {this.props.header}
                                 </div>
                             )
@@ -109,10 +109,10 @@ class DropDownNarrow extends React.Component {
                                 </div>
                             </Link>
                         ) : (
-                                <div className='dropdown-header' onClick={this.handleClick} style={{color: this.state.expanded ? ('#DDCEE5'): ('#422a4C')}}>
+                                <div className='dropdown-header' onClick={this.handleClick} style={{ color: this.state.expanded ? ('#DDCEE5') : ('#422a4C') }}>
                                     {this.props.header}
                                     {'      '}
-                                    <img className='arrow' style={this.state.expanded ? ({transform: 'rotate(90deg)'}): ({})} src={`https://icon.now.sh/chevron/${this.state.expanded ? ('DDCEE5'): ('422a4C')}/10`} alt=">"/>
+                                    <img className='arrow' style={this.state.expanded ? ({ transform: 'rotate(90deg)' }) : ({})} src={`https://icon.now.sh/chevron/${this.state.expanded ? ('DDCEE5') : ('422a4C')}/10`} alt=">" />
                                 </div>
                             )
                     }
@@ -169,9 +169,9 @@ class NavBar extends React.Component {
 
     scrollHandler() {
         if (window.scrollY > document.getElementById('mcm-header').clientHeight) {
-            this.setState({fixedNavbar: true})
+            this.setState({ fixedNavbar: true })
         } else {
-            this.setState({fixedNavbar: false})
+            this.setState({ fixedNavbar: false })
         }
     }
 
@@ -197,19 +197,19 @@ class NavBar extends React.Component {
                     <McmLogo />
                 </div>
                 <div className='wide-navbar' style={fixedNavbar}>
-                    <div className='filler-box' style={this.state.fixedNavbar ? ({backgroundColor: "#DDCEE5"}) : ({})}/>
+                    <div className='filler-box' style={this.state.fixedNavbar ? ({ backgroundColor: "#DDCEE5" }) : ({})} />
                     {
                         this.props.dropDownItems.map(({ header, headerTo, dropDownChildren }) => (
                             <DropDownWide header={header} headerTo={headerTo} dropDownChildren={dropDownChildren} key={`${header}`} fixedNavbar={this.state.fixedNavbar} />
                         ))
                     }
-                    <div className='filler-box' style={this.state.fixedNavbar ? ({backgroundColor: "#DDCEE5"}) : ({})}/>
+                    <div className='filler-box' style={this.state.fixedNavbar ? ({ backgroundColor: "#DDCEE5" }) : ({})} />
                 </div>
                 <div className='narrow-navbar'>
                     <div className='narrow-navbar-toggle' >
                         <img style={burgerStyle} onClick={this.handleClick} src='https://icon.now.sh/burger/DDCEE5/24' alt='burger' />
                     </div>
-                        <McmLogo />
+                    <McmLogo />
                     <div className='narrow-navbar-menu' style={narrowNavBarStyle}>
                         {
                             this.props.dropDownItems.map(({ header, headerTo, dropDownChildren }) => (
