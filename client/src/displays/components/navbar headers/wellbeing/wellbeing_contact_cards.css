@@ -2,18 +2,21 @@
     margin: 10px;
 }
 
+/* #431e69 Primary */
+/* #f1e2ff Secondary */
+
 .wellbeing-card-content {
     height: 120px;
-    border: solid;
-    border-width: 5px 3px 3px 5px;
-    border-color: #422a4C #5C3F68 #5C3F68 #422a4C;
-    color: #422a4C;
+    border: 1px solid #431e69;
+    /* border-width: 5px 3px 3px 5px;
+    border-color: #422a4C #5C3F68 #5C3F68 #422a4C; */
+    color: #431e69;
     padding: 15px;
     transition: background-color 0.3s ease-in-out;
 }
 
 .wellbeing-card-content:hover {
-    background-color: #DDCEE5;
+    background-color: #f1e2ff;
 }
 
 .wellbeing-card-name {

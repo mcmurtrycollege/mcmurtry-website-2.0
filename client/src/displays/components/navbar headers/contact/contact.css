@@ -3,44 +3,46 @@
     margin-bottom: 5%;
 }
 
+/* #431e69 Primary */
+/* #f1e2ff Secondary */
+
 .contact-card-shell {
     margin: 2%;
 }
 
 .contact-card {
-    border: solid;
-    border-width: 5px 3px 3px 5px;
-    border-color: #422a4C #5C3F68 #5C3F68 #422a4C;
+    border: 1px solid#431e69; 
     padding: 20px;
     height: 160px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition-duration: .3s;
 }
 
 .contact-card:hover {
     transform: scale(1.05);
-    box-shadow: -3px -3px 20px 4px #422a4C;
+    background-color: #f1e2ff;
+    /* box-shadow: -3px -3px 20px 4px #422a4C; */
 }
 
 .contacts-position {
-    color: #422a4C;
+    color: #431e69;
     font-size: 1.2em;
     font-weight: normal;
     text-align: center;
 }
 
 .contacts-name {
-    color: #422a4C;
+    color: #431e69;
     text-align: center;
 }
 
 .contacts-email {
-    color: #422a4C;
+    color: #431e69;
     font-size: 1.25em;
     text-align: center;
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .contacts-email:hover {
-    color: #DDCEE5;
+    /* color: #f1e2ff; */
     transform: scale(1.07);
 }

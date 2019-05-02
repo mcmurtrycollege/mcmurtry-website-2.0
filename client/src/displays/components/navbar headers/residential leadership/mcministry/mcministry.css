@@ -5,12 +5,15 @@
     }
 }
 
+/* #431e69 Primary */
+/* #f1e2ff Secondary */
+/* 
 .division-title {
     font-size: 2em;
     text-align: center;
     font-weight: normal;
-    border: 3px solid #422a4C;
+    border: 1px solid #431e69;
     padding: 8px;
-    color: #422a4C;
-    background-color: #DDCEE5; 
-}
+    color: #431e69;
+    background-color: #f1e2ff; 
+} */

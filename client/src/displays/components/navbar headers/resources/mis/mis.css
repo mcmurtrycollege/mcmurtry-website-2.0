@@ -3,36 +3,39 @@
     margin-bottom: 5%;
 }
 
+/* #431e69 Primary */
+/* #f1e2ff Secondary */
+
 .subtitle {
     margin-top: 3%;
     margin-bottom: 2%;
-    border: 2px solid #422a4C;
+    /* border: 1px solid #431e69; */
     text-align: center;
-    color: #422a4C;
+    color: #431e69;
 }
 
 .mis-paragraphs {
     padding: 20px;
-    color: #422a4C;
-    background-color: #DDCEE5;
-    border: 2px solid #422a4C;
+    color: #431e69;
+    background-color: #f1e2ff;
+    border: 1px solid #431e69;
 }
 
 .schedule-box {
     margin-top: 2%;
     margin-bottom: 4%;
-    background-color: #DDCEE5;
-    border: 2px solid #422a4C;
+    background-color: #f1e2ff;
+    border: 1px solid #431e69;
 }
 
 .schedule {
-    border: 2px solid #422a4C;
+    /* border: 1px solid #431e69; */
     margin: 1%;
 }
 
 .schedule-item {
     text-align: center;
-    color: #422a4C;
+    color: #431e69;
     font-size: 1em;
 }
 
@@ -41,15 +44,15 @@
 }
 
 .mis-info {
-    background-color: #DDCEE5;
-
     margin: 2%;
-    border: 2px solid #422a4C;
-    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    border: 1px solid #431e69;
+    transition-duration: .3s;
+    /* transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; */
 }
 
 .mis-info:hover {
-    box-shadow: 0 0 10px 3px #422a4C;
+    background-color: #f1e2ff;
+    /* box-shadow: 0 0 10px 3px #431e69; */
     transform: scale(1.05);
 }
 
@@ -57,53 +60,55 @@
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #422a4C;
-    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    border: 1px solid #431e69;
+    transition-duration: .3s;
+    /* transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; */
 }
 
 .mis-email-link:hover {
-    box-shadow: 0 0 10px 3px #422a4C;
+    background-color: #f1e2ff;
+    /* box-shadow: 0 0 10px 3px #431e69; */
     transform: scale(1.05);
 }
 
 .mis-link {
     text-align: center;
     font-size: 1.4em;
-    color: #422a4C
+    color: #431e69;
 }
 
 .mis-contact {
-    border: solid;
-    border-width: 5px 3px 3px 5px;
-    border-color: #422a4C #5C3F68 #5C3F68 #422a4C;
+    border: 1px solid #431e69;
+    /* border: solid; */
+    /* border-width: 5px 3px 3px 5px; */
     padding: 20px;
     height: 250px;
     transition: background-color 0.3s ease-in-out;
 }
 
 .mis-contact:hover {
-    background-color: #DDCEE5;
+    background-color:  #f1e2ff;
 }
 
 .mis-name {
-    color: #422a4C;
+    color: #431e69;
 
 }
 
 .mis-major {
-    color: #422a4C;
+    color: #431e69;
     font-size: 0.9em;
     font-weight: normal;
 }
 
 .mis-college {
-    color: #422a4C;
+    color: #431e69;
     font-size: 0.9em;
     font-weight: normal;
 }
 
 .mis-email {
-    color: #422a4C;
+    color: #431e69;
     font-size: 1.2em;
     transition: transform 0.3s ease-in-out;
 }
@@ -114,10 +119,10 @@
 
 .mis-askMeHeader {
     font-size: 0.8em;
-    color: #422a4C;
+    color: #431e69;
 }
 
 .mis-askMeAbout {
-    color: #422a4C;
+    color: #431e69;
     font-size: 0.8em;
 }

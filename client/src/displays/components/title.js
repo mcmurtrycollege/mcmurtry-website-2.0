@@ -2,7 +2,7 @@ import React from 'react';
 import { Box } from 'rebass';
 
 const title_style1 = {
-        fontSize: '3em',
+        fontSize: '2em',
         textAlign: 'center',
         fontWeight: 'normal',
         border: '1px solid #422a4C',

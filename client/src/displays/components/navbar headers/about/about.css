@@ -1,19 +1,22 @@
 @media screen and (min-width: 900px){
     .about-page {
-        margin-top: 4%;
+        margin-top: 8%;
         margin-bottom: 4%;
     }
 }
 
+/* #431e69 Primary */
+/* #f1e2ff Secondary */
+
 .about-subtitle {
     text-align: center;
-    border: 1px solid #431e69;
-    /* background-color: #f1e2ff;  */
+
 }
 
 .about-text {
     padding: 20px;
     /* background-color: #DDCEE5; */
+    background-color: #f1e2ff;
     color: #431e69;
-    /* border: 2px solid rgb(67, 30, 105); */
+    border: 1px solid #431e69;
 }

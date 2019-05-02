@@ -2,18 +2,23 @@
     margin: 10px;
 }
 
+/* #431e69 Primary */
+/* #f1e2ff Secondary */
+
 .academic-card-content {
     border: solid;
-    border-width: 5px 3px 3px 5px;
-    border-color: #422a4C #5C3F68 #5C3F68 #422a4C;
+
+    /* border-width: 5px 3px 3px 5px; */
+    /* border-color: #422a4C #5C3F68 #5C3F68 #422a4C; */
     /* background-color: #9570A5; */
-    color: #422a4C;
+    color: #431e69;
+    border: 1px solid #431e69;
     padding: 15px;
     transition: background-color 0.3s ease-in-out;
 }
 
 .academic-card-content:hover {
-    background-color: #DDCEE5;
+    background-color: #f1e2ff;
 }
 
 .academic-position {
@@ -27,7 +32,7 @@
 
 .academic-contact {
     text-decoration: none;
-    color: #422a4C;
+    color: #431e69;
 }
 
 .academic-contact-email {
@@ -45,7 +50,7 @@
 }
 
 .academic-subjects {
-    color: #422a4C;
+    color: #431e69;
     font-size: 1em;
     font-weight: normal;
 }

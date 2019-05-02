@@ -1,18 +1,21 @@
 .equipment-request-page {
-    padding-top: 5%;
+    margin-top: 8%;
 }
 
+/* #431e69 Primary */
+/* #f1e2ff Secondary */
+
 .tech-request {
-    border: 2px solid #422a4C;
-    color: #422a4C;
+    border: 1px solid #431e69;
+    color: #431e69;
     text-align: center;
 }
 
 .tech-request-link {
-    color: #422a4C;
+    color: #431e69;
     transition: color 0.3s ease-in-out;
 }
 
 .tech-request-link:hover {
-    color: #DDCEE5;
+    color: #f1e2ff;
 }

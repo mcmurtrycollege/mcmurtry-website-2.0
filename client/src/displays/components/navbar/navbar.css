@@ -129,8 +129,9 @@
     width: 5%;
     padding: 5px;
     height: 20px;
+    border-bottom: 2px solid gray;
     /* border: solid #422a4C;
-    border-width: 2px 0px 2px 0px; */
+    /* border-width: 2px 0px 2px 0px; */ 
     transition: background-color 0.2s ease-in-out;
 }
 

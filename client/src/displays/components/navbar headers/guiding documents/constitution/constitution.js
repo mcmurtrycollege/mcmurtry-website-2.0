@@ -6,7 +6,7 @@ import mcmConstitution from '../../../../static/mcm_constitution.pdf';
 
 const Constitution = () => (
     <div className='constitution-page'>
-        <Title width={360} title="Constitution" />
+        <Title width={360} title="Constitution"/>
         <div className='wide-constitution-pdf'>
             <embed src={mcmConstitution} type="application/pdf" width="600" height="820px" page="7" scrollbar="1" toolbar="1" />
         </div>

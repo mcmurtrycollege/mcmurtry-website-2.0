@@ -3,9 +3,13 @@
     margin-bottom: 5%;
 }
 
+/* #431e69 Primary */
+/* #f1e2ff Secondary */
+
 .room-catagory {
-    border: 2px solid #422a4C;
-    color: #422a4C;
+    border: 1px solid #431e69;
+    color: #431e69;
+    background-color: #f1e2ff;
     padding: 30px;
     margin-bottom: 3%;
     margin-left: auto;
@@ -17,15 +21,18 @@
 }
 
 .reservation-email-link {
-    border: 2px solid #422a4C;
+    border: 1px solid #431e69;
     margin-left: auto;
     margin-right: auto;
-    background-color: #DDCEE5;
-    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    /* background-color: #DDCEE5; */
+    transition-duration: .3s;
+    /* transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out; */
 }
 
 .reservation-email-link:hover {
-    box-shadow: 0px 0px 10px 3px #422a4C;
+    /* box-shadow: 0px 0px 10px 3px #422a4C; */
+    background-color: #f1e2ff;
     transform: scale(1.05);
 }
 
@@ -33,7 +40,7 @@
     font-size: 1.3em;
     text-decoration: none;
     text-align: center;
-    color: #422a4C;
+    color: #431e69;
 }
 
 .scheduler-container {

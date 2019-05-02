@@ -38,12 +38,12 @@ class DropDownWide extends React.Component {
                     {
                         this.props.headerTo !== undefined ? (
                             <Link to={this.props.headerTo} style={{ textDecoration: 'none' }}>
-                                <div style={this.props.fixedNavbar ? ({ backgroundColor: "#DDCEE5" }) : ({})} className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
+                                <div style={this.props.fixedNavbar ? ({ backgroundColor: "#FFFFFF" }) : ({})} className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
                                     {this.props.header}
                                 </div>
                             </Link>
                         ) : (
-                                <div style={this.props.fixedNavbar ? ({ backgroundColor: "#DDCEE5" }) : ({})} className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
+                                <div style={this.props.fixedNavbar ? ({ backgroundColor: "#FFFFFF" }) : ({})} className={this.state.expanded ? ('dropdown-header-active') : ('dropdown-header-inactive')}>
                                     {this.props.header}
                                 </div>
                             )

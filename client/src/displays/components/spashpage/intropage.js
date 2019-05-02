@@ -1,9 +1,9 @@
 import React from 'react';
-import { Box, Flex, Image } from 'rebass';
+import { Box, Flex } from 'rebass';
 import { Link } from 'react-router-dom';
 import './intropage.css';
 
-import Yurt from '../../static/YurtTrees.svg';
+// import Yurt from '../../static/YurtTrees.svg';
 
 const quickLinks = [
     {
