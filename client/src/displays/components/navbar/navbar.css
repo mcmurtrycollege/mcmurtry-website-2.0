@@ -110,10 +110,12 @@
 
 .narrow-navbar-toggle {
     margin-top: 6%;
-    position: absolute;
+    /* position: absolute; */
     z-index: 999;
     margin-left: 6%;
     margin-right: 90%;
+
+    margin: 35px;
 }
 
 .narrow-navbar-menu {
