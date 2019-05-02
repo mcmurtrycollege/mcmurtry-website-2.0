@@ -30,9 +30,9 @@ const quickLinks = [
 
 const Intro = () => (
     <div className='intro-page'>
-        <Box width={0.8} ml='auto' mr='auto' style={{textAlign: 'center'}}>
+        {/* <Box width={0.8} ml='auto' mr='auto' style={{textAlign: 'center'}}>
             <Image src={Yurt} />
-        </Box>
+        </Box> */}
         <Box className='quick-links-title' width={[0.8, 0.2]} ml='auto' mr='auto'>
             <h2 style={{ margin: '10px' }}>Quick Links</h2>
         </Box>

@@ -19,7 +19,7 @@ const navbar_items = [
     ]
   },
   {
-    header: "Residential Leadership",
+    header: "Leadership",
     dropDownChildren: [
       {
         subheader: "McTeam",
@@ -70,7 +70,7 @@ const navbar_items = [
     ]
   },
   {
-    header: "Guiding Documents",
+    header: "Documents",
     dropDownChildren: [
       {
         subheader: "Constitution",

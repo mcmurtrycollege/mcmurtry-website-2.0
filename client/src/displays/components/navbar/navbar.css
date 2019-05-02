@@ -1,3 +1,8 @@
+
+/* Secondary purple color */
+/* background-color: rgb(241, 226, 255); */
+
+
 @media screen and (min-width: 1000px){
     .wide-navbar {
         display: flex;
@@ -10,21 +15,24 @@
     }
 
     .dropdown-header-inactive {
-        border: solid #422a4C;
-        border-width: 2px 0px 2px 0px;
+        /* border: solid #422a4C;
+        border-width: 2px 0px 2px 0px; */
     }
 
     .dropdown-header-active {
-        border: solid #422a4C;
-        border-width: 2px 0px 2px 0px;
+        /* border: solid #422a4C;
+        border-width: 2px 0px 2px 0px; */
     }
 
     .dropdown-subheader {
-        background-color: #A491BF;
+        background-color: #ffffff;
+        color: gray;
     }
 
     .dropdown-subheader:hover {
-        background-color: #422a4C;
+        /* background-color: rgb(67, 30, 105); */
+        color:#431e69;
+        background-color: #f1e2ff;
         cursor: pointer;
     }
 }
@@ -54,27 +62,30 @@
 
 .dropdown-item {
     display: block;
-    color: #422a4C;
+    /* color: #422a4C; */
     text-align: center;
 }
 
 .dropdown-header-inactive {
-    height: 35px;
+    height: 20px;
     padding: 5px;
-    color: #422a4C;
+    color: gray;
+    border-bottom: 2px solid gray;
     transition: background-color 0.2s ease-in-out;
 }
 
 .dropdown-header-active {
-    height: 35px;
+    height: 20px;
     padding: 5px;
-    background-color: #422a4C !important;
-    color: #DDCEE5;
+    /* background-color: rgb(241, 241, 241); */
+  
+    border-bottom: 2px solid #431e69;
+    color: #431e69;
     transition: background-color 0.2s ease-in-out;
 }
 
 .dropdown-header {
-    color: #422a4C;
+    /* color: #422a4C; */
     display: block;
     padding: 5px;
 }
@@ -87,7 +98,7 @@
     text-align: center;
     padding: 5px;
     display: block;
-    color: #DDCEE5;
+    /* color: #DDCEE5; */
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -117,9 +128,9 @@
 .filler-box {
     width: 5%;
     padding: 5px;
-    height: 35px;
-    border: solid #422a4C;
-    border-width: 2px 0px 2px 0px;
+    height: 20px;
+    /* border: solid #422a4C;
+    border-width: 2px 0px 2px 0px; */
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -129,14 +140,15 @@
     }
     
     .dropdown-header-inactive {
-        height: 80px;
+        height: 20px;
     }
 
     .dropdown-header-active {
-        height: 80px;
+        height: 20px;
     }
 
     .filler-box {
-        height: 80px;
+        height: 20px;
     }
 }
+

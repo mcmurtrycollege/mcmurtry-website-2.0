@@ -5,6 +5,9 @@
     }
 }
 
+/* #431e69 Primary */
+/* #f1e2ff Secondary */
+
 @media screen and (min-width: 650px){
     .mcteam-key {
         font-size: 1em;
@@ -13,7 +16,7 @@
     }
 
     .active-key {
-        background-color: #422a4C;
+        background-color: #9e9e9e;;
         color: #DDCEE5;
         text-align: center;
         width: 120px;
@@ -21,7 +24,7 @@
     }
     
     .inactive-key {
-        color: #422a4C;
+        color: gray;
         text-align: center;
         transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
         width: 120px;
@@ -38,14 +41,14 @@
 
     .active-key {
         background-color: #422a4C;
-        color: #DDCEE5;
+        color: gray;
         text-align: center;
         width: 62px;
         height: 50px;
     }
     
     .inactive-key {
-        color: #422a4C;
+        color: gray;
         text-align: center;
         transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
         width: 62px;
@@ -55,7 +58,7 @@
 
 .inactive-slide:hover {
     background-color: #422a4C;
-    color: #DDCEE5;
+    color: gray;
 }
 
 .position-content {

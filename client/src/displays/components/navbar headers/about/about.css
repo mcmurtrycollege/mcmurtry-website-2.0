@@ -1,18 +1,19 @@
 @media screen and (min-width: 900px){
     .about-page {
-        margin-top: 8%;
-        margin-bottom: 5%;
+        margin-top: 4%;
+        margin-bottom: 4%;
     }
 }
 
 .about-subtitle {
     text-align: center;
-    border: 2px solid #422A4C;
+    border: 1px solid #431e69;
+    /* background-color: #f1e2ff;  */
 }
 
 .about-text {
     padding: 20px;
-    background-color: #DDCEE5;
-    color: #422A4C;
-    border: 2px solid #422A4C;
+    /* background-color: #DDCEE5; */
+    color: #431e69;
+    /* border: 2px solid rgb(67, 30, 105); */
 }

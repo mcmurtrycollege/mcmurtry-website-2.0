@@ -197,13 +197,14 @@ class NavBar extends React.Component {
                     <McmLogo />
                 </div>
                 <div className='wide-navbar' style={fixedNavbar}>
-                    <div className='filler-box' style={this.state.fixedNavbar ? ({ backgroundColor: "#DDCEE5" }) : ({})} />
+                    <div className='filler-box' style={this.state.fixedNavbar ? ({ backgroundColor: "#FFFFFF" }) : ({})} />
                     {
                         this.props.dropDownItems.map(({ header, headerTo, dropDownChildren }) => (
                             <DropDownWide header={header} headerTo={headerTo} dropDownChildren={dropDownChildren} key={`${header}`} fixedNavbar={this.state.fixedNavbar} />
                         ))
                     }
-                    <div className='filler-box' style={this.state.fixedNavbar ? ({ backgroundColor: "#DDCEE5" }) : ({})} />
+                    <div className='filler-box' style={this.state.fixedNavbar ? ({ backgroundColor: "#FFFFFF" }) : ({})} />
+                    
                 </div>
                 <div className='narrow-navbar'>
                     <div className='narrow-navbar-toggle' >

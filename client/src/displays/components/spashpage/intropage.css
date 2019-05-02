@@ -5,8 +5,8 @@
 
 .quick-links-title {
     margin-top: 4%;
-    border: 2px solid #422a4C;
-    color: #422a4C;
+    /* border: 2px solid #422a4C; */
+    color: #431e69;
     text-align: center;
     font-size: 1.5em;
     font-weight: normal;
@@ -19,11 +19,11 @@
 }
 
 .quick-link {
-    background-color: #DDCEE5;
-    color: #422a4C;
-    border: solid;
-    border-width: 5px 3px 3px 5px;
-    border-color: #422a4C #5C3F68 #5C3F68 #422a4C;
+    background-color: rgb(255, 255, 255);
+    color: #431e69;
+    border: 2px solid;
+    /* border-width: 5px 3px 3px 5px; */
+    /* border-color: #422a4C #5C3F68 #5C3F68 #422a4C; */
     padding: 20px;
     text-align: center;
     height: 130px;
@@ -31,7 +31,8 @@
 }
 
 .quick-link:hover {
+    background-color: #f1e2ff; 
     cursor: pointer;
     transform: scale(1.08);
-    box-shadow: -3px -3px 20px 4px #422a4C;
+    /* box-shadow: -3px -3px 20px 4px #422a4C; */
 }

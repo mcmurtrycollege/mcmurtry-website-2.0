@@ -5,20 +5,20 @@ const title_style1 = {
         fontSize: '3em',
         textAlign: 'center',
         fontWeight: 'normal',
-        border: '2px solid #422a4C',
+        border: '1px solid #422a4C',
         padding: '8px',
-        color: '#422a4C',
-        backgroundColor: '#DDCEE5'
+        color: '#431e69'
+        // backgroundColor: '#DDCEE5'
 }
 
 const title_style2 = {
     fontSize: '2em',
     textAlign: 'center',
     fontWeight: 'normal',
-    border: '2px solid #422a4C',
+    border: '1px solid #422a4C',
     padding: '8px',
-    color: '#422a4C',
-    backgroundColor: '#DDCEE5'
+    color: '#431e69'
+    // backgroundColor: '#DDCEE5'
 }
 
 const Title = props => (
