@@ -1,9 +1,10 @@
 import React from 'react';
-import { Box, Flex } from 'rebass';
+import { Box, Flex, Image } from 'rebass';
 import { Link } from 'react-router-dom';
 import './intropage.css';
 
 // import Yurt from '../../static/YurtTrees.svg';
+import murt from '../../static/murt.jpg';
 
 const quickLinks = [
     {
@@ -30,9 +31,9 @@ const quickLinks = [
 
 const Intro = () => (
     <div className='intro-page'>
-        {/* <Box width={0.8} ml='auto' mr='auto' style={{textAlign: 'center'}}>
-            <Image src={Yurt} />
-        </Box> */}
+        {/* <Box width={.9} height={.5} ml='auto' mr='auto' style={{textAlign: 'center'}}>
+            <Image src={murt} />
+        </Box>  */}
         <Box className='quick-links-title' width={[0.8, 0.2]} ml='auto' mr='auto'>
             <h2 style={{ margin: '10px' }}>Quick Links</h2>
         </Box>
